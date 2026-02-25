@@ -17,9 +17,49 @@
         }
       }
     })
-  </script><link rel="alternate" type="application/rss+xml" title="난너의오른팔 기술 블로그 RSS Feed" href="/rss.xml"/><title data-gatsby-head="true">초심자 입장에서 Flutter Riverpod을 &#x27;잘&#x27; 사용하는 방법 (장문)</title><link rel="canonical" href="https://inyoung.dev/how-to-use-flutter-riverpod/" data-gatsby-head="true"/><script type="application/ld+json" data-gatsby-head="true">{"@context":"https://schema.org","@type":"BlogPosting","name":"초심자 입장에서 Flutter Riverpod을 '잘' 사용하는 방법 (장문)","description":"React에 익숙한 개발자 입장에서 투두리스트를 구현하며 Flutter의 Riverpod 사용법을 다뤄봅니다.","url":"https://inyoung.dev/how-to-use-flutter-riverpod/","headline":"초심자 입장에서 Flutter Riverpod을 '잘' 사용하는 방법 (장문)","datePublished":"2025-09-20T00:00:00.000Z","dateModified":"2025-09-20T00:00:00.000Z","author":{"@type":"Person","name":"Inyoung Chung"},"publisher":{"@type":"Person","name":"Inyoung Chung"},"image":"https://inyoung.dev/static/799736ca765105052b8080f4072546ed/f0c16/index.png"}</script></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><header class="fixed top-0 w-full h-[54px] m-0 p-0 border-bottom-2 z-50 bg-darkMain border-b border-zinc-600"><div class="flex h-full mx-auto max-w-wrapper items-center justify-between px-3"><h1 class="text-3 font-bold text-white m-0"><a class="transition-colors hover:text-cyan-300" href="/">난너의오른팔 🧑‍💻</a></h1><div class="flex items-center gap-2"><a class="flex h-[27px] w-[27px] items-center justify-center rounded-full bg-white font-pretendard text-sm font-bold text-black transition-transform hover:scale-110 hover:text-gray-500" href="/portfolio/">Me</a><a href="https://github.com/rmdnps10" class="text hover:text-gray-500 hover:scale-110 text-white block transition-all" target="_blank" rel="noreferrer"><svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="github" class="svg-inline--fa fa-github fa-xl " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" color="gray-500"><path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path></svg></a><a href="https://www.linkedin.com/in/rmdnps10/" target="_blank" rel="noreferrer" class="text hover:text-gray-500 hover:scale-110 text-white block transition-all"><svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin" class="svg-inline--fa fa-linkedin fa-xl " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" color="white"><path fill="currentColor" d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"></path></svg></a></div></div><div class="absolute bottom-0 left-0 h-0.5 bg-yellow" style="width:0%"></div></header><div class="global-wrapper" data-is-root-path="false"><main><div class="blog-post-container"><article class="blog-post" itemscope="" itemType="http://schema.org/Article"><header><h1 itemProp="headline">초심자 입장에서 Flutter Riverpod을 &#x27;잘&#x27; 사용하는 방법 (장문)</h1><div class="flex gap-2 mb-3 flex-wrap"><a class="px-2 py-0.5 rounded-lg text-white font-bold text-xs md:text-sm border-2 hover:shadow-md transition-all" style="color:#02569B;border-color:#02569B;background-color:#02569B15" href="/?tag=Flutter">#<!-- -->Flutter</a></div><div class="flex items-center gap-3 text-gray-400 text-sm mb-4"><time>2025-09-20</time></div></header><section itemProp="articleBody"><blockquote>
+  </script><link rel="alternate" type="application/rss+xml" title="난너의오른팔 기술 블로그 RSS Feed" href="/rss.xml"/><title data-gatsby-head="true">초심자 입장에서 Flutter Riverpod을 &#x27;잘&#x27; 사용하는 방법 (장문)</title><link rel="canonical" href="https://inyoung.dev/how-to-use-flutter-riverpod/" data-gatsby-head="true"/><script type="application/ld+json" data-gatsby-head="true">{"@context":"https://schema.org","@type":"BlogPosting","name":"초심자 입장에서 Flutter Riverpod을 '잘' 사용하는 방법 (장문)","description":"React에 익숙한 개발자 입장에서 투두리스트를 구현하며 Flutter의 Riverpod 사용법을 다뤄봅니다.","url":"https://inyoung.dev/how-to-use-flutter-riverpod/","headline":"초심자 입장에서 Flutter Riverpod을 '잘' 사용하는 방법 (장문)","datePublished":"2025-09-20T00:00:00.000Z","dateModified":"2025-09-20T00:00:00.000Z","author":{"@type":"Person","name":"Inyoung Chung"},"publisher":{"@type":"Person","name":"Inyoung Chung"},"image":"https://inyoung.dev/static/799736ca765105052b8080f4072546ed/f0c16/index.png"}</script></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><header class="fixed top-0 w-full h-[54px] m-0 p-0 border-bottom-2 z-50 bg-darkMain border-b border-zinc-600"><div class="flex h-full mx-auto max-w-wrapper items-center justify-between px-3"><h1 class="text-3 font-bold text-white m-0"><a class="transition-colors hover:text-cyan-300" href="/">난너의오른팔 🧑‍💻</a></h1><div class="flex items-center gap-2"><a class="flex h-[27px] w-[27px] items-center justify-center rounded-full bg-white font-pretendard text-sm font-bold text-black transition-transform hover:scale-110 hover:text-gray-500" href="/portfolio/">Me</a><a href="https://github.com/rmdnps10" class="text hover:text-gray-500 hover:scale-110 text-white block transition-all" target="_blank" rel="noreferrer"><svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="github" class="svg-inline--fa fa-github fa-xl " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" color="gray-500"><path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path></svg></a><a href="https://www.linkedin.com/in/rmdnps10/" target="_blank" rel="noreferrer" class="text hover:text-gray-500 hover:scale-110 text-white block transition-all"><svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin" class="svg-inline--fa fa-linkedin fa-xl " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" color="white"><path fill="currentColor" d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"></path></svg></a></div></div><div class="absolute bottom-0 left-0 h-0.5 bg-yellow" style="width:0%"></div></header><div class="global-wrapper" data-is-root-path="false"><main><div class="blog-post-container"><article class="blog-post" itemscope="" itemType="http://schema.org/Article"><header><h1 itemProp="headline">초심자 입장에서 Flutter Riverpod을 &#x27;잘&#x27; 사용하는 방법 (장문)</h1><div class="flex gap-2 mb-3 flex-wrap"><a class="px-2 py-0.5 rounded-lg text-white font-bold text-xs md:text-sm border-2 hover:shadow-md transition-all" style="color:#E29FBF;border-color:#E29FBF;background-color:#E29FBF15" href="/?tag=Web">#<!-- -->Web</a></div><div class="flex items-center gap-3 text-gray-400 text-sm mb-4"><time>2025-09-20</time></div></header><section itemProp="articleBody"><blockquote>
 <p>LG전자 산학 캡스톤에서 Flutter로 프로젝트를 진행하기 전 프리코스로 TODO 리스트 개발 과제가 주어졌다. 이 글에서는 TODO 리스트 실습을 통해 어떻게 Riverpod을 통한 상태구현을 잘 구현할 수 있는지 다뤄본다.</p>
 </blockquote>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 387px; background: transparent;"
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/799736ca765105052b8080f4072546ed/655df/index.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 33.599999999999994%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAIAAACHqfpvAAAACXBIWXMAAAsTAAALEwEAmpwYAAABWklEQVR42mOw7Tpk23nIuu2AVdt+6/YDdt2H7bsP2wEFcSO4LAMQ23QedJt22mfeBY8ZZ8zbDpi1HjBrO2ADNLHzoFXHQSBp2X7QqvOgNZR9wBxkB1gz0LbwtbfLr//IP/PRb/Hl9MXnajZcy1hy3r77kFPvYfcJR137jvhOOe7af9Sl74hDz+HAaSeSFp4D2gHUD7I5bvujhJ2P7Rq3qcbPm7z//u6rL1edfjL38P3lpx5vvvgcSM48eH/FqSfLTj6ef/TBhvPP2rffNGreBzSIwbbzoG3PEaP8lRp+U4xLt2Ytv1i17mrZmis1G65Wrr3Stu1G4cpLvbtu9+++3bTlRv2m6907bmUvuwD0lz3EZpC32w9YNe217T4M9J5Z237LjoMQn1t2HAC60GvSMaCHgVxzMAIGBCLAQAgYwj2HkQMT6CU4wxKs2q4LpADoWufew8DgcOo5DACf0eoPRg/SBgAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+  ></span>
+  <picture>
+          <source
+              srcset="/static/799736ca765105052b8080f4072546ed/bc904/index.webp 250w,
+/static/799736ca765105052b8080f4072546ed/9b725/index.webp 387w"
+              sizes="(max-width: 387px) 100vw, 387px"
+              type="image/webp"
+            />
+          <source
+            srcset="/static/799736ca765105052b8080f4072546ed/43fa5/index.png 250w,
+/static/799736ca765105052b8080f4072546ed/655df/index.png 387w"
+            sizes="(max-width: 387px) 100vw, 387px"
+            type="image/png"
+          />
+          <img
+            class="gatsby-resp-image-image"
+            src="/static/799736ca765105052b8080f4072546ed/655df/index.png"
+            alt="index"
+            title=""
+            loading="lazy"
+            decoding="async"
+            style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+          />
+        </picture>
+  </a>
+    </span></p>
 <h3 id="-과제-요구사항">📋 과제 요구사항</h3>
 <ul>
 <li>투두리스트 기본적인 기능 구현</li>
@@ -36,7 +76,7 @@
 <p><a href="https://github.com/rmdnps10/CSE4103-Flutter-TODO">➡️ 작업 레포지토리</a></p>
 <p>오늘은 이 과정 속 내가 학습한 내용에 대해 다뤄보고자 한다.</p>
 <h2 id="1️-riverpod-핵심-개념">1️⃣ Riverpod 핵심 개념</h2>
-<h4 id="1-1-riverpod이-뭘까-">1-1 <code class="language-text">Riverpod</code>이 뭘까? 🎯</h4>
+<h4 id="1-1-riverpod-소개">1-1 <code class="language-text">Riverpod</code> 소개</h4>
 <p>Riverpod은 Flutter에서 사용하는 <code class="language-text">상태 관리 라이브러리</code>다. 쉽게 말해서 앱의 데이터를 여러 화면에서 공유하고 관리할 수 있게 해주는 도구라고 생각하면 된다.</p>
 <h5>왜 상태 관리가 필요할까?🤔</h5>
 <p>Flutter에서 기본적으로 제공하는 <code class="language-text">setState()</code>는 한 화면 안에서만 데이터를 관리할 수 있다. 하지만 실제 앱을 만들다 보면:</p>
@@ -48,29 +88,24 @@
 <p>이럴 때 Riverpod이 빛을 발한다!</p>
 <h5>Riverpod의 장점</h5>
 <ul>
-<li>🔒 <strong>타입 안전성</strong>: 컴파일할 때 오류를 미리 잡아준다</li>
-<li>🧪 <strong>테스트하기 쉬움</strong>: 가짜 데이터로 테스트하기 편하다</li>
-<li>📱 <strong>DevTools 지원</strong>: 상태 변화를 눈으로 확인할 수 있다</li>
-<li>🏗️ <strong>확장성</strong>: 큰 프로젝트에서도 깔끔하게 관리된다</li>
+<li><strong>타입 안전성</strong>: 컴파일할 때 오류를 미리 잡아준다</li>
+<li><strong>테스트하기 쉬움</strong>: 가짜 데이터로 테스트하기 편하다</li>
+<li><strong>DevTools 지원</strong>: 상태 변화를 눈으로 확인할 수 있다</li>
+<li><strong>확장성</strong>: 큰 프로젝트에서도 깔끔하게 관리된다</li>
 </ul>
-<h4 id="1-2-riverpod-아키텍처-한눈에-보기-">1-2 Riverpod 아키텍처 한눈에 보기 📐</h4>
+<h4 id="1-2-riverpod-아키텍처">1-2 Riverpod 아키텍처</h4>
 <p>Riverpod은 4가지 핵심 요소로 구성되어 있다:</p>
-<div class="gatsby-highlight" data-language="dart"><pre class="language-dart"><code class="language-dart">🏪 <span class="token class-name">Provider</span> <span class="token punctuation">(</span>상점<span class="token punctuation">)</span>         ↔️  📱 <span class="token class-name">Consumer</span> <span class="token punctuation">(</span>고객<span class="token punctuation">)</span>
-      ⬇️                       ⬆️
-🎪 <span class="token class-name">ProviderScope</span>          ↔️  🔗 <span class="token class-name">Ref</span> <span class="token punctuation">(</span>다리<span class="token punctuation">)</span>
-   <span class="token punctuation">(</span>쇼핑몰 관리소<span class="token punctuation">)</span>              <span class="token punctuation">(</span>연결고리<span class="token punctuation">)</span></code></pre></div>
-<p><strong>간단한 비유로 이해하기:</strong></p>
-<ul>
-<li><strong>🏪 Provider</strong>: 데이터를 파는 <strong>상점</strong></li>
-<li><strong>📱 Consumer</strong>: 데이터를 사는 <strong>고객</strong> (UI)</li>
-<li><strong>🎪 ProviderScope</strong>: 모든 상점을 관리하는 <strong>쇼핑몰</strong> (Flutter Widget용)</li>
-<li><strong>🔗 Ref</strong>: 고객과 상점을 연결하는 <strong>다리</strong> 역할</li>
-</ul>
+<ol>
+<li><code class="language-text">Provider</code> : 데이터를 생성하고 관리하는 역할</li>
+<li><code class="language-text">ProviderScope</code>: Provider들이 작동할 수 있는 환경을 제공하는 Widget</li>
+<li><code class="language-text">Ref</code>: Provider와 Consumer를 연결하는 다리 역할</li>
+<li><code class="language-text">Consumer Widget</code>: Provider의 데이터를 구독하고 UI에 표시하는 특별한 Widget</li>
+</ol>
 <blockquote>
 <p><strong>💡 참고:</strong> 실제로는 ProviderContainer가 핵심 관리 시스템이지만, Flutter 앱에서는 <code class="language-text">ProviderScope</code>(Widget 버전)를 사용하는 것이 권장된다. Todo 앱에서도 ProviderScope를 사용했다!</p>
 </blockquote>
 <p>이제 각각을 자세히 알아보자!</p>
-<h4 id="1-3--provider-핵심-개념">1-3 🏪 Provider 핵심 개념</h4>
+<h4 id="1-3-provider-핵심-개념">1-3 Provider 핵심 개념</h4>
 <p>Provider는 <strong>데이터를 제공하는 상점</strong>이다. 앱에서 필요한 데이터를 생성하고 관리하는 역할을 한다.</p>
 <p><strong>Provider 타입별 특징:</strong></p>
 <div class="gatsby-highlight" data-language="dart"><pre class="language-dart"><code class="language-dart"><span class="token comment">// 🎯 StateProvider - 간단한 값 하나를 관리</span>
@@ -122,7 +157,7 @@
 </tr>
 </tbody>
 </table>
-<h4 id="1-4--providerscope-핵심-개념">1-4 🎪 ProviderScope 핵심 개념</h4>
+<h4 id="1-4-providerscope-핵심-개념">1-4 ProviderScope 핵심 개념</h4>
 <p>ProviderScope는 Riverpod의 <strong>Flutter 전용 진입점</strong>이다. 모든 Provider들이 작동할 수 있는 <strong>환경을 제공</strong>하는 특별한 Widget이다.</p>
 <p><strong>Todo 앱에서 ProviderScope를 선택한 이유:</strong></p>
 <div class="gatsby-highlight" data-language="dart"><pre class="language-dart"><code class="language-dart"><span class="token comment">// main.dart - 앱의 시작점</span>
@@ -167,7 +202,7 @@
 <li><strong>백그라운드 서비스</strong>: UI와 분리된 백그라운드 작업에서 상태 관리가 필요할 때</li>
 <li><strong>서버 사이드</strong>: Dart 서버 애플리케이션에서 Riverpod을 사용할 때</li>
 </ul>
-<h4 id="1-5--ref-핵심-개념">1-5 🔗 Ref 핵심 개념</h4>
+<h4 id="1-5-ref-핵심-개념">1-5 Ref 핵심 개념</h4>
 <p>Ref는 Provider와 Consumer를 연결하는 <strong>다리</strong> 역할을 한다. Widget에서 Provider의 데이터에 접근하거나 상태를 변경할 때 사용한다.</p>
 <h5><strong>Ref의 주요 메서드들</strong></h5>
 <div class="gatsby-highlight" data-language="dart"><pre class="language-dart"><code class="language-dart"><span class="token keyword">class</span> <span class="token class-name">TodoPage</span> <span class="token keyword">extends</span> <span class="token class-name">ConsumerWidget</span> <span class="token punctuation">{</span>
@@ -230,7 +265,7 @@
 </tr>
 </tbody>
 </table>
-<h4 id="1-6--consumer-widget-핵심-개념">1-6 📱 Consumer Widget 핵심 개념</h4>
+<h4 id="1-6-consumer-widget-핵심-개념">1-6 Consumer Widget 핵심 개념</h4>
 <p>Consumer Widget은 Provider의 데이터를 <strong>구독</strong>하고 <strong>UI에 표시</strong>하는 특별한 위젯이다. 일반 Widget과 달리 <code class="language-text">WidgetRef ref</code> 매개변수를 통해 Provider에 접근할 수 있다.</p>
 <div class="gatsby-highlight" data-language="dart"><pre class="language-dart"><code class="language-dart"><span class="token comment">// ❌ 일반 Widget - Provider 접근 불가</span>
 <span class="token keyword">class</span> <span class="token class-name">NormalWidget</span> <span class="token keyword">extends</span> <span class="token class-name">StatelessWidget</span> <span class="token punctuation">{</span>
@@ -291,7 +326,7 @@
 <li>🎯 <code class="language-text">ref.read()</code>로 상태를 <strong>변경</strong>할 때는 리빌드되지 않음</li>
 <li>🔄 Todo가 추가/삭제/수정되면 TodoList와 TodoItem이 자동으로 업데이트됨</li>
 </ul>
-<h4 id="1-7--setstate-vs-riverpod-비교">1-7 🔄 setState vs Riverpod 비교</h4>
+<h4 id="1-7-setstate-vs-riverpod-비교">1-7 setState vs Riverpod 비교</h4>
 <p><strong>기존 setState 방식의 한계</strong></p>
 <div class="gatsby-highlight" data-language="dart"><pre class="language-dart"><code class="language-dart"><span class="token keyword">class</span> _CounterPageState <span class="token keyword">extends</span> <span class="token class-name">State</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">CounterPage</span><span class="token punctuation">></span></span> <span class="token punctuation">{</span>
   int count <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>  <span class="token comment">// 🚫 이 화면에서만 사용 가능</span>
@@ -338,7 +373,7 @@
 <li><strong>타입 안전성</strong>: 컴파일 타임에 오류 검출</li>
 <li><strong>테스트 용이성</strong>: Provider 교체로 쉬운 테스트</li>
 </ul>
-<h4 id="1-8--설치-및-설정-방법">1-8 🎯 설치 및 설정 방법</h4>
+<h4 id="1-8-설치-및-설정-방법">1-8 설치 및 설정 방법</h4>
 <p><strong>패키지 설치 (권장 방법)</strong></p>
 <div class="gatsby-highlight" data-language="bash"><pre class="language-bash"><code class="language-bash"><span class="token comment"># 메인 라이브러리 설치</span>
 flutter pub <span class="token function">add</span> flutter_riverpod
@@ -842,7 +877,7 @@ notifier<span class="token punctuation">.</span><span class="token function">tog
 </ul>
 <h3 id="큰-관점에서-배운-점-">큰 관점에서 배운 점 📚</h3>
 <h4 id="1-상태-관리의-본질">1. <strong>상태 관리의 본질</strong></h4>
-<p>Riverpod을 통해 상태 관리의 핵심은 **"누가, 언제, 어떻게 데이터를 관리할 것인가"**라는 것을 깨달았다. React의 상태 관리와 비슷하지만, Flutter의 Widget 생명주기와 더 자연스럽게 통합된다는 점이 인상적이었다.</p>
+<p>Riverpod을 통해 상태 관리의 핵심은 "누가, 언제, 어떻게 데이터를 관리할 것인가"라는 것을 깨달았다. React의 상태 관리와 비슷하지만, Flutter의 Widget 생명주기와 더 자연스럽게 통합된다는 점이 인상적이었다.</p>
 <h4 id="2-선언적-ui의-힘">2. <strong>선언적 UI의 힘</strong></h4>
 <div class="gatsby-highlight" data-language="dart"><pre class="language-dart"><code class="language-dart"><span class="token comment">// 상태가 변하면 UI가 자동으로 업데이트됨</span>
 <span class="token keyword">final</span> todos <span class="token operator">=</span> ref<span class="token punctuation">.</span><span class="token function">watch</span><span class="token punctuation">(</span>todoListProvider<span class="token punctuation">)</span><span class="token punctuation">;</span>  <span class="token comment">// 이것만으로 끝!</span></code></pre></div>
@@ -897,7 +932,7 @@ state <span class="token operator">=</span> state<span class="token punctuation"
 </tbody>
 </table>
 <h3 id="결론">결론</h3>
-<p>Riverpod은 처음에는 복잡해 보일 수 있지만, 본질적으로 React의 상태 관리와 크게 다르지 않다.</p></section><footer class="mt-10"><div></div></footer></article><aside class="toc-sidebar"></aside></div><nav class="blog-post-nav mt-10"><div class="flex justify-between items-center py-6 border-t border-gray-800"><div class="flex-1"><a rel="prev" class="group flex flex-col gap-1" href="/database-system-introduction/"><span class="text-xs text-gray-500 group-hover:text-gray-400 transition-colors">← 이전 글</span><span class="text-sm md:text-base font-bold text-gray-300 group-hover:text-white transition-colors line-clamp-1">데이터베이스 시스템 개론 📚 – Chapter 1. Introduction of Database Systems</span></a></div><div class="w-px h-10 bg-gray-800 mx-4"></div><div class="flex-1 text-right"><a rel="next" class="group flex flex-col gap-1" href="/prompt-engineering-basic/"><span class="text-xs text-gray-500 group-hover:text-gray-400 transition-colors">다음 글 →</span><span class="text-sm md:text-base font-bold text-gray-300 group-hover:text-white transition-colors line-clamp-1">프롬프트 엔지니어링의 기초 개념과 기법을 python 코드와 함께 알아보자</span></a></div></div></nav></main><footer class="text-center">© <!-- -->2026<!-- -->, Design &amp; Developed by 정인영</footer></div></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/how-to-use-flutter-riverpod/";/*]]>*/</script><!-- slice-start id="_gatsby-scripts-1" -->
+<p>Riverpod은 처음에는 복잡해 보일 수 있지만, 본질적으로 React의 상태 관리와 크게 다르지 않다.</p></section><footer class="mt-10"><div></div></footer></article><aside class="toc-sidebar"></aside></div><nav class="blog-post-nav mt-10"><div class="flex justify-between items-center py-6 border-t border-gray-800"><div class="flex-1"><a rel="prev" class="group flex flex-col gap-1" href="/database-system-introduction/"><span class="text-xs text-gray-500 group-hover:text-gray-400 transition-colors">← 이전 글</span><span class="text-sm md:text-base font-bold text-gray-300 group-hover:text-white transition-colors line-clamp-1">데이터베이스 시스템 개론 📚 – Chapter 1. Introduction of Database Systems</span></a></div><div class="w-px h-10 bg-gray-800 mx-4"></div><div class="flex-1 text-right"><a rel="next" class="group flex flex-col gap-1" href="/prompt-engineering-basic/"><span class="text-xs text-gray-500 group-hover:text-gray-400 transition-colors">다음 글 →</span><span class="text-sm md:text-base font-bold text-gray-300 group-hover:text-white transition-colors line-clamp-1">프롬프트 엔지니어링의 기초 개념과 기법을 python 코드와 함께 알아보자</span></a></div></div></nav><div class="pt-10 border-t border-gray-800"><h3 class="text-xl md:text-2xl font-bold text-white mb-6"><span style="color:#E29FBF">#<!-- -->Web</span> <!-- -->관련 포스트</h3><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4"><a class="group p-4 rounded-xl bg-[#1a1a1a] border border-gray-800 hover:border-gray-600 transition-all flex flex-col justify-between h-full" href="/spring-ioc-di-concepts/"><div><h4 class="text-base font-bold mb-2 group-hover:text-blue-400 transition-colors line-clamp-2" style="color:#6EB442">Spring Framework의 핵심 개념 이해하기 - IoC와 DI</h4></div><time class="text-xs text-gray-500">2026-02-24</time></a><a class="group p-4 rounded-xl bg-[#1a1a1a] border border-gray-800 hover:border-gray-600 transition-all flex flex-col justify-between h-full" href="/troubleshooting-supabase-auth/"><div><h4 class="text-base font-bold mb-2 group-hover:text-blue-400 transition-colors line-clamp-2" style="color:#3ECF8D">[트러블슈팅] Supabase Auth를 활용한 다양한 환경에서의 세션 유지</h4></div><time class="text-xs text-gray-500">2026-02-10</time></a></div></div></main><footer class="text-center">© <!-- -->2026<!-- -->, Design &amp; Developed by 정인영</footer></div></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/how-to-use-flutter-riverpod/";/*]]>*/</script><!-- slice-start id="_gatsby-scripts-1" -->
           <script
             id="gatsby-chunk-mapping"
           >
