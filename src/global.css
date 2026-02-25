@@ -49,6 +49,7 @@
   --fontFamily-serif: "Merriweather", "Georgia", Cambria, "Times New Roman",
     Times, serif;
   --fontFamily-pretendard: "Pretendard", system-ui;
+  --fontFamily-D2Coding: "D2Coding";
 
   --font-body: var(--fontFamily-serif);
   --font-heading: var(--fontFamily-sans);
