@@ -1,6 +1,6 @@
 [
   {
-    "slug": "ai-portfolio-search",
+    "slug": "gandalf",
     "title": "간달프",
     "role": "Full-stack",
     "domainTags": ["AI", "Front-end"],
@@ -46,7 +46,7 @@
     "summary": "AI 기반 미술관 도슨트 애플리케이션. 맞춤형 온보딩 후 AI와 채팅하며 작품 질문, CLIP 기반 이미지 검색으로 유사 작품 탐색. 헤이트슬롭 3기 파이널 프로젝트"
   },
   {
-    "slug": "ai-portfolio-search",
+    "slug": "webos-design",
     "title": "webOS의 첫 화면을 디자인해라",
     "role": "Full-stack",
     "domainTags": ["Full-stack"],

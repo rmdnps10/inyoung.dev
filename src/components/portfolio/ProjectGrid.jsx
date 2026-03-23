@@ -2,7 +2,7 @@ import React, { useState } from "react"
 import projects from "../../data/projects.json"
 import ProjectCard from "./_ProjectCard"
 
-const DOMAIN_ORDER = ["Front-end", "Full-stack", "AI", "Art-Tech"]
+const DOMAIN_ORDER = ["All", "Front-end", "Full-stack", "AI", "Art-Tech"]
 
 export default function ProjectGrid() {
   const [selectedTag, setSelectedTag] = useState("All")
