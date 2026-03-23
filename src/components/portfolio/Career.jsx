@@ -86,20 +86,34 @@ export default function Career() {
                     </span>
                   </div>
 
-                  <span
-                    className="career-position-button inline-flex items-center border-2 font-bold rounded-lg whitespace-nowrap mt-2 mb-3 px-2 py-1 text-[12px] md:text-[14px]"
-                    style={{
-                      color: role.color || "#FFFFFF",
-                      borderColor: role.color || "#FFFFFF",
-                      boxShadow: "rgba(0, 0, 0, 0.3) 0px 1px 2px inset",
-                    }}
-                    onMouseLeave={e => {
-                      e.currentTarget.style.borderColor =
-                        role.color || "#FFFFFF"
-                    }}
-                  >
-                    {role.position}
-                  </span>
+                  <div className="flex items-end gap-4 mt-2 mb-3">
+                    <span
+                      className="career-position-button inline-flex items-center border-2 font-bold rounded-lg whitespace-nowrap px-2 py-1 text-[12px] md:text-[14px]"
+                      style={{
+                        color: role.color || "#FFFFFF",
+                        borderColor: role.color || "#FFFFFF",
+                        boxShadow: "rgba(0, 0, 0, 0.3) 0px 1px 2px inset",
+                      }}
+                      onMouseLeave={e => {
+                        e.currentTarget.style.borderColor =
+                          role.color || "#FFFFFF"
+                      }}
+                    >
+                      {role.position}
+                    </span>
+
+                    {role.retrospectUrl && (
+                      <a
+                        href={role.retrospectUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-end gap-1.5 text-[14px] md:text-[16px] hover:underline font-semibold"
+                        style={{ color: role.color || "#FFFFFF" }}
+                      >
+                        회고록 보기 →
+                      </a>
+                    )}
+                  </div>
 
                   {role.highlights && role.highlights.length > 0 && (
                     <ul className="space-y-2 mb-0 mt-3 w-full">

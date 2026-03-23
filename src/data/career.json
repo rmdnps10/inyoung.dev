@@ -3,6 +3,7 @@
     "period": { "start": "24.06", "end": "24.12" },
     "organization": "코딩밸리",
     "position": "프론트엔드 컨텐츠 프로듀서 인턴",
+    "retrospectUrl": "https://inyoung.dev/my-it-startup-internship-retrospect/",
     "highlights": [
       "HTML, CSS, Javascript, React, Next.js, Typescript 강의 검수 및 커리큘럼 기획",
       "수강생들을 위한 HTML/CSS, React, Next, TypeScript 입문서 공동 저술"
@@ -23,6 +24,7 @@
     "period": { "start": "25.01", "end": "25.07" },
     "organization": "카카오뱅크 기술XR",
     "position": "개발 어시스턴트",
+    "retrospectUrl": "https://inyoung.dev/kakaobank-devrel-internship-retrospect/",
     "highlights": [
       "카카오뱅크 내부 기술 컨퍼런스 'Kode Runner' React + TypeScript / FastAPI 웹 애플리케이션 개발 및 약 1,000명 규모 참가자용 인터랙티브 단체게임 구축",
       "Hugo 기반 카카오뱅크 기술 블로그 유지보수 및 기술 글 작성/발행 지원 (7개 글 발행)",

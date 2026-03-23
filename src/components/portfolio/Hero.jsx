@@ -37,17 +37,14 @@ export default function Hero() {
           소프트웨어 개발자, 정인영입니다.{" "}
         </h1>
 
-        <p className="hidden md:block absolute bottom-[100px] right-[10px] text-white text-[14px]">
-          위에 빈 공간에 커서를 올려주세요.
-        </p>
         <h1 className="text-[16px] md:text-[3vw] text-white absolute bottom-[20px] left-[10px] md:left-auto md:right-[10px]">
-          a.k.a 난너의오른팔{" "}
+          Learning By Sharing
         </h1>
         <div
           className="hidden md:block"
           style={{
             width: "50%",
-            height: "250px",
+            height: "300px",
             position: "absolute",
             top: "200px",
             right: 0,
@@ -72,18 +69,22 @@ export default function Hero() {
             fadeDurationMs={1500}
           />
 
+          {/* 내 숨겨진 기능 */}
           <div className="absolute top-[30px] left-[30px] ">
-            <p className="text-[#1e1e1d] text-[20px]">
-              전공수업, 대외활동에서의 풍부한 개발 협업 경험 (Fe/Be)
+            <p className="text-[#1e1e1d] text-[21px] font-semibold mb-[20px]">
+              마우스를 올리면 보이는 저의 또 다른 면
             </p>
             <p className="text-[#1e1e1d] text-[20px]">
-              1년동안 2번의 서비스 개발 인턴 경험
+              전공 프로젝트·대외활동에서의 프론트/백엔드/앱/AI 개발 협업 경험
             </p>
             <p className="text-[#1e1e1d] text-[20px]">
-              스스로 글을 작성하며 CS 기초를 다집니다.
+              1년간 2회의 개발 인턴 수행
             </p>
             <p className="text-[#1e1e1d] text-[20px]">
-              Cursor, Windsurf와 같은 AI 툴을 잘 사용하기 위해 노력합니다.
+              기술 글쓰기를 통한 CS 기초 다지기
+            </p>
+            <p className="text-[#1e1e1d] text-[20px]">
+              AI 개발 도구를 빠르게 익히고 활용하는 습관
             </p>
           </div>
         </div>

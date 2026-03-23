@@ -26,7 +26,7 @@
     "role": "Full-stack",
     "domainTags": ["Full-stack"],
     "techStack": ["Express", "Flutter", "PostgreSQL", "AWS", "Docker"],
-    "githubUrl": "https://github.com/rmdnps10/ai-portfolio-search",
+    "githubUrl": "https://github.com/rmdnps10/webos-backend",
     "thumbnail": "/images/project/webos.jpg",
     "year": 2025,
     "summaryList": [

@@ -12,12 +12,46 @@
     "summary": "채용 담당자/학생/교수가 자연어 쿼리로 본인 조직의 사람을 탐색할 수 있는 벡터 시맨틱 검색 서비스 - AI 해커톤 대상 수상작"
   },
   {
+    "slug": "boj-ai-helper",
+    "title": "BOJ AI Helper",
+    "role": "Full-stack",
+    "domainTags": ["AI", "Full-stack"],
+    "techStack": ["TypeScript", "Next.js", "NestJS", "PostgreSQL", "Supabase"],
+    "githubUrl": "https://github.com/rmdnps10/boj-ai-helper",
+    "thumbnail": "/images/project/boj-ai-helper.png",
+    "featured": true,
+    "year": 2025,
+    "summary": "백준 제출 기록을 자동으로 수집하고, 망각 곡선에 따른 복습 일정을 제안하는 스마트 알고리즘 어시스턴트. 크롬 확장 프로그램으로 실시간 크롤링, AI 피드백 제공"
+  },
+  {
+    "slug": "ai-docent",
+    "title": "CURAT",
+    "role": "Full-stack",
+    "domainTags": ["AI", "Full-stack"],
+    "techStack": [
+      "TypeScript",
+      "React Native",
+      "Expo",
+      "FastAPI",
+      "Supabase",
+      "OpenAI",
+      "CLIP",
+      "Next.js"
+    ],
+    "githubUrl": "https://github.com/hateslop-final/AI-Docent",
+    "liveUrl": "https://ai-docent-admin.vercel.app/",
+    "thumbnail": "/images/project/ai-docent.png",
+    "featured": true,
+    "year": 2024,
+    "summary": "AI 기반 미술관 도슨트 애플리케이션. 맞춤형 온보딩 후 AI와 채팅하며 작품 질문, CLIP 기반 이미지 검색으로 유사 작품 탐색. 헤이트슬롭 3기 파이널 프로젝트"
+  },
+  {
     "slug": "ai-portfolio-search",
     "title": "webOS의 첫 화면을 디자인해라",
     "role": "Full-stack",
     "domainTags": ["Full-stack"],
     "techStack": ["Express", "Flutter", "PostgreSQL", "AWS", "Docker"],
-    "githubUrl": "https://github.com/rmdnps10/ai-portfolio-search",
+    "githubUrl": "https://github.com/rmdnps10/webos-backend",
     "thumbnail": "/images/project/webos.jpg",
     "featured": true,
     "year": 2025,

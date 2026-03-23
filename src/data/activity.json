@@ -13,7 +13,7 @@
     {
       "title": "웹개발팀장",
       "organization": "서강대 ATC 2025",
-      "year": "2024"
+      "year": "2024.08 - 2024.12"
     },
     {
       "title": "학생대표",
@@ -44,7 +44,8 @@
     }
   ],
   "Certification": [
-    { "title": "정보처리기사", "organization": "q-net", "year": "2024" },
-    { "title": "SQLD", "organization": "Kdata", "year": "2024" }
+    { "title": "정보처리기사", "organization": "한국산업인력공단", "year": "2025" },
+    { "title": "네트워크관리사 2급", "organization": "한국정보통신자격협회", "year": "2026" },
+    { "title": "SQLD", "organization": "Kdata", "year": "2026" }
   ]
 }
