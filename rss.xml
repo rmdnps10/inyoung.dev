@@ -1,4 +1,338 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[난너의오른팔 기술 블로그 RSS Feed]]></title><description><![CDATA[Web 기술과 AI 활용법을 공부하는 주니어 개발자, 커뮤니티 빌더의 기술 블로그]]></description><link>https://inyoung.dev</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 23 Mar 2026 11:49:33 GMT</lastBuildDate><item><title><![CDATA[[소프트웨어공학] SOLID 원칙 이해하기]]></title><description><![CDATA[객체 지향 설계의 기본이 되는 은 응집성을 높이고 결합도를 낮춰 유지보수가 용이한 코드를 작성하기 위한 5가지 설계 원칙입니다. 각 원칙의 목적과 실제 적용 방법을 살펴봅니다.  SOLID 원칙이란 는 객체 지향 프로그래밍에서 지켜야 할…]]></description><link>https://inyoung.dev/software-engineering-solid-principles/</link><guid isPermaLink="false">https://inyoung.dev/software-engineering-solid-principles/</guid><pubDate>Wed, 25 Feb 2026 00:00:00 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[난너의오른팔 기술 블로그 RSS Feed]]></title><description><![CDATA[Web 기술과 AI 활용법을 공부하는 주니어 개발자, 커뮤니티 빌더의 기술 블로그]]></description><link>https://inyoung.dev</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 27 Apr 2026 04:57:04 GMT</lastBuildDate><item><title><![CDATA[[데이터베이스] 동시성 제어와 스케줄의 개념]]></title><description><![CDATA[여러 트랜잭션이 동시에 실행될 때 데이터 일관성이 깨질 수 있다. 의 개념과 종류, 그리고 이 지향하는 두 가지 목표인 와 에 대해 개괄적으로 정리해보자.…]]></description><link>https://inyoung.dev/database-concurrency-control/</link><guid isPermaLink="false">https://inyoung.dev/database-concurrency-control/</guid><pubDate>Sun, 26 Apr 2026 00:00:00 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+&lt;p&gt;여러 트랜잭션이 동시에 실행될 때 데이터 일관성이 깨질 수 있다.&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;Schedule&lt;/code&gt;의 개념과 종류, 그리고 &lt;code class=&quot;language-text&quot;&gt;Concurrency Control&lt;/code&gt;이 지향하는 두 가지 목표인 &lt;code class=&quot;language-text&quot;&gt;Serializability&lt;/code&gt;와 &lt;code class=&quot;language-text&quot;&gt;Recoverability&lt;/code&gt;에 대해 개괄적으로 정리해보자.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1000px; background: transparent;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/3f67f884d7d47f0a4e5363f4b6e2339f/7c474/index.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 48.800000000000004%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAACE4AAAhOAFFljFgAAABfklEQVR42nVS2UpCURT1n0IzpzJ6DwyigZCionm0bPiToIfoMae8jpXmdTbrMRIL0yD6jNXe596r15s9LPbZw1msvc4xjSVvocHNSEWVqGJcyzmq0N8xwqQns8dDGJaCAiMxOhOsAkFYYkrdSnDEw6LvSkQGEzKZIxHGvPyA/VoJm5UCVks5bFcL2KkWsaKeGRuVPDyZlJidSEsYNZB2CW2kzl+vItxpQfpq47L51o2hdgvyzzcinU9cfzRx0XjF1XtDkLNSvQ09hbTGQj6Ds5cajusVbJGaI4onz1UcPpVxqtVJ/QHl3ON5vuf+z0MbNYeiN4QAzOSVWQqoea9mEXUl8vwfDzV1U9k0fPUyZnL32CMfl4o57JJ/7KGfVC5T7qGZ9YqMc1LLm/hIpSebgpN8dOsJuTCZSQpPZomQ4xyZ7i1ksUjg3FvIYPrxTjzGWlmm1fOizvf6CDWp/FrcYLUOii7d2U7RmVDWc3VzZX7gKxs/d99H18FYH/SxfwEJ7yh5292s5QAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/static/3f67f884d7d47f0a4e5363f4b6e2339f/bc904/index.webp 250w,
+/static/3f67f884d7d47f0a4e5363f4b6e2339f/4be29/index.webp 500w,
+/static/3f67f884d7d47f0a4e5363f4b6e2339f/03f31/index.webp 1000w,
+/static/3f67f884d7d47f0a4e5363f4b6e2339f/84f56/index.webp 1329w&quot;
+              sizes=&quot;(max-width: 1000px) 100vw, 1000px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/static/3f67f884d7d47f0a4e5363f4b6e2339f/43fa5/index.png 250w,
+/static/3f67f884d7d47f0a4e5363f4b6e2339f/c6e3d/index.png 500w,
+/static/3f67f884d7d47f0a4e5363f4b6e2339f/da8b6/index.png 1000w,
+/static/3f67f884d7d47f0a4e5363f4b6e2339f/7c474/index.png 1329w&quot;
+            sizes=&quot;(max-width: 1000px) 100vw, 1000px&quot;
+            type=&quot;image/png&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/static/3f67f884d7d47f0a4e5363f4b6e2339f/da8b6/index.png&quot;
+            alt=&quot;index&quot;
+            title=&quot;&quot;
+            loading=&quot;lazy&quot;
+            decoding=&quot;async&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&quot;1️-동시-실행되는-트랜잭션-문제&quot;&gt;1️⃣ 동시 실행되는 트랜잭션 문제&lt;/h2&gt;
+&lt;p&gt;데이터베이스는 여러 사용자의 요청을 동시에 처리하기 위해 트랜잭션을 &lt;strong&gt;병렬&lt;/strong&gt;로 실행한다. 이때 동일한 데이터에 여러 트랜잭션이 접근하면 다음과 같은 문제가 발생할 수 있다.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;문제&lt;/th&gt;
+&lt;th&gt;설명&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code class=&quot;language-text&quot;&gt;Dirty Read&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;아직 commit되지 않은 데이터를 다른 트랜잭션이 읽는 문제&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code class=&quot;language-text&quot;&gt;Lost Update&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;두 트랜잭션이 같은 데이터를 동시에 수정하여 한 쪽의 수정이 사라지는 문제&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code class=&quot;language-text&quot;&gt;Non-repeatable Read&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;같은 트랜잭션 내에서 같은 데이터를 두 번 읽었을 때 값이 다른 문제&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code class=&quot;language-text&quot;&gt;Phantom Read&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;같은 조건의 쿼리를 두 번 실행했을 때 결과 행 수가 달라지는 문제&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;이러한 이상 현상들을 방지하기 위해 &lt;code class=&quot;language-text&quot;&gt;Concurrency Control(동시성 제어)&lt;/code&gt;이 필요하다.&lt;/p&gt;
+&lt;p&gt;각 Isolation level 별 자세한 사항은 다음 글을 참고하자.&lt;/p&gt;
+&lt;h2 id=&quot;2️-스케줄schedule이란-무엇인가&quot;&gt;2️⃣ 스케줄(Schedule)이란 무엇인가&lt;/h2&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;스케줄&lt;/code&gt;은 여러 트랜잭션의 operation들이 실행되는 &lt;strong&gt;전체 순서&lt;/strong&gt;를 의미한다.&lt;/p&gt;
+&lt;p&gt;각 트랜잭션 내부 operation들의 상대적 순서는 유지되지만, 서로 다른 트랜잭션의 operation은 interleave될 수 있다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;java&quot;&gt;&lt;pre class=&quot;language-java&quot;&gt;&lt;code class=&quot;language-java&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// T1: X에서 20을 읽어 Y에 더함&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;// T2: X에서 30을 읽어 X에 씀&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;// Schedule 예시 (interleaved)&lt;/span&gt;
+&lt;span class=&quot;token constant&quot;&gt;T1&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;read&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;X&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token constant&quot;&gt;T2&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;read&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;X&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token constant&quot;&gt;T1&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;write&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;Y&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token constant&quot;&gt;T2&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;write&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;X&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token constant&quot;&gt;T1&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; commit
+&lt;span class=&quot;token constant&quot;&gt;T2&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; commit&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;위와 같이 두 트랜잭션의 operation이 섞여 실행되는 것이 하나의 Schedule이다.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;💡 &lt;strong&gt;Operation의 종류&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;read(X)&lt;/code&gt;: 데이터 X를 DB에서 읽어 메모리에 올림&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;write(X)&lt;/code&gt;: 메모리에서 수정한 X를 DB에 반영&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;commit&lt;/code&gt;: 트랜잭션의 모든 변경을 영구 반영&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;rollback&lt;/code&gt;: 트랜잭션의 모든 변경을 취소&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;3️-serial-schedule&quot;&gt;3️⃣ Serial Schedule&lt;/h2&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;Serial Schedule&lt;/code&gt;은 트랜잭션들이 &lt;strong&gt;겹치지 않고 순차적으로&lt;/strong&gt; 실행되는 Schedule이다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;java&quot;&gt;&lt;pre class=&quot;language-java&quot;&gt;&lt;code class=&quot;language-java&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// T1이 완전히 끝난 후 T2 실행 → Serial Schedule&lt;/span&gt;
+&lt;span class=&quot;token constant&quot;&gt;T1&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;read&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;X&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; → &lt;span class=&quot;token function&quot;&gt;write&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;Y&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; → commit
+&lt;span class=&quot;token constant&quot;&gt;T2&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;read&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;X&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; → &lt;span class=&quot;token function&quot;&gt;write&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;X&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; → commit&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;항상 데이터 일관성을 보장한다.&lt;/li&gt;
+&lt;li&gt;그러나 한 트랜잭션이 끝날 때까지 다른 트랜잭션이 대기해야 하므로 성능이 낮다.&lt;/li&gt;
+&lt;li&gt;I/O 대기 중에도 CPU를 활용할 수 없어 자원 효율이 떨어진다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;실제 시스템에서 Serial Schedule만 허용하는 것은 성능적으로 포기할 부분이 많기에, &lt;strong&gt;결과적으로 Serial Schedule과 동등한&lt;/strong&gt; Schedule을 허용하는 방향으로 설계한다.&lt;/p&gt;
+&lt;h2 id=&quot;4️-serializable-schedule&quot;&gt;4️⃣ Serializable Schedule&lt;/h2&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;Serializable Schedule&lt;/code&gt;은 &lt;strong&gt;어떤 Serial Schedule과 동등한 결과를 내는 Schedule&lt;/strong&gt;이다.&lt;/p&gt;
+&lt;p&gt;interleave 방식으로 실행되더라도 그 결과가 어떤 Serial Schedule의 결과와 동일하다면, 올바른 Schedule로 간주한다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;동시성은 높이면서도 데이터 일관성은 유지&lt;/strong&gt;할 수 있다.&lt;/li&gt;
+&lt;li&gt;두 Schedule이 &quot;동등하다&quot;는 것은, 모든 트랜잭션이 동일한 데이터에 같은 최종 값을 쓰고 읽는다는 의미다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;5️-conflict-serializability&quot;&gt;5️⃣ Conflict Serializability&lt;/h2&gt;
+&lt;p&gt;Serializability를 판단하는 실용적인 기준이 &lt;code class=&quot;language-text&quot;&gt;Conflict Serializability&lt;/code&gt;다.&lt;/p&gt;
+&lt;h3 id=&quot;conflict란&quot;&gt;Conflict란?&lt;/h3&gt;
+&lt;p&gt;두 operation이 다음 조건을 &lt;strong&gt;모두&lt;/strong&gt; 만족할 때 conflict라 한다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;서로 &lt;strong&gt;다른 트랜잭션&lt;/strong&gt;에 속한다.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;같은 데이터&lt;/strong&gt;에 접근한다.&lt;/li&gt;
+&lt;li&gt;적어도 &lt;strong&gt;하나가 &lt;code class=&quot;language-text&quot;&gt;write&lt;/code&gt;&lt;/strong&gt; 이다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;조합&lt;/th&gt;
+&lt;th&gt;Conflict 여부&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;read-read&lt;/td&gt;
+&lt;td&gt;❌&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;read-write&lt;/td&gt;
+&lt;td&gt;✅&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;write-read&lt;/td&gt;
+&lt;td&gt;✅&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;write-write&lt;/td&gt;
+&lt;td&gt;✅&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&quot;conflict-equivalent&quot;&gt;Conflict Equivalent&lt;/h3&gt;
+&lt;p&gt;두 Schedule에서 &lt;strong&gt;non-conflict operation들의 순서를 swap&lt;/strong&gt;하여 동일한 Schedule로 변환 가능하면 &lt;code class=&quot;language-text&quot;&gt;Conflict Equivalent&lt;/code&gt;하다고 한다.
+즉, &lt;strong&gt;conflict operation들의 상대적 순서는 유지&lt;/strong&gt;되어야 한다.&lt;/p&gt;
+&lt;h3 id=&quot;conflict-serializable&quot;&gt;Conflict Serializable&lt;/h3&gt;
+&lt;p&gt;어떤 Schedule이 &lt;strong&gt;Conflict Equivalent한 Serial Schedule이 존재&lt;/strong&gt;하면 &lt;code class=&quot;language-text&quot;&gt;Conflict Serializable&lt;/code&gt;이라 한다.&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&quot;gatsby-resp-image-figure&quot; style=&quot;background: transparent;&quot;&gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 997px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/03b9b5ebc6a0a316ee5f15317996b474/25122/graph.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 70%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAIAAACgpqunAAAACXBIWXMAAAsTAAALEwEAmpwYAAABWklEQVR42oVSXZObMBC7//8b+9LeXZJCAGPvtw1UkLQzl06Lh/HDeqWVtLwty+Lh7Fqjiqu61Qgy9oh1Xbf/njdgspSfZTDWy9z1eTTRa+mIaWnLCTgiWmsY4uZ3HpNk0OHhUX/pftGyg83M3YXlPV2vqTMxFEVkJ0X/8/vHZIBxExEoVDVTBkuB7OWLbMQxpglFUclCT3CtFUNMrePhTlN4NKToPnK6lb6n8Ub3rERC75cPvGYqiOkJRt+uk6UYo8rCAyfcpDxpnq0kqFHGFgD4vF2ixlM2kIiqRYXsnUg9lfnb8B30L7IfgfXpXlv9s6pg42KEhB7+YSlpEdXzwFqts+Rr6e3o9uNs64b771Xtw7f1y08y0oR4mXhfmMC7+O9VnfwkcDvQ9DHfAAIRMldR5K+HkDNwremQDasShlRhezlWdQ5GgIg+duflR7p85k7cGgKtdTs7vwBa9zQYGVdakQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/static/03b9b5ebc6a0a316ee5f15317996b474/bc904/graph.webp 250w,
+/static/03b9b5ebc6a0a316ee5f15317996b474/4be29/graph.webp 500w,
+/static/03b9b5ebc6a0a316ee5f15317996b474/15cb5/graph.webp 997w&quot;
+              sizes=&quot;(max-width: 997px) 100vw, 997px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/static/03b9b5ebc6a0a316ee5f15317996b474/43fa5/graph.png 250w,
+/static/03b9b5ebc6a0a316ee5f15317996b474/c6e3d/graph.png 500w,
+/static/03b9b5ebc6a0a316ee5f15317996b474/25122/graph.png 997w&quot;
+            sizes=&quot;(max-width: 997px) 100vw, 997px&quot;
+            type=&quot;image/png&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/static/03b9b5ebc6a0a316ee5f15317996b474/25122/graph.png&quot;
+            alt=&quot;precedence graph로 Conflict Serializable 판단 (출처-GeeksforGeeks)&quot;
+            title=&quot;&quot;
+            loading=&quot;lazy&quot;
+            decoding=&quot;async&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+    &lt;figcaption class=&quot;gatsby-resp-image-figcaption&quot;&gt;precedence graph로 Conflict Serializable 판단 (출처-GeeksforGeeks)&lt;/figcaption&gt;
+  &lt;/figure&gt;&lt;/p&gt;
+&lt;h2 id=&quot;6️-recoverability&quot;&gt;6️⃣ Recoverability&lt;/h2&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;Recoverability&lt;/code&gt;는 트랜잭션이 실패했을 때 &lt;strong&gt;정상적으로 rollback 가능한지&lt;/strong&gt;에 관한 개념이다. Schedule이 올바른 결과를 내더라도, 장애 발생 시 복구가 불가능하면 문제가 된다.&lt;/p&gt;
+&lt;h4 id=&quot;6-1-unrecoverable-schedule&quot;&gt;6-1 Unrecoverable Schedule&lt;/h4&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;Unrecoverable Schedule&lt;/code&gt;은 &lt;strong&gt;rollback이 불가능한&lt;/strong&gt; Schedule이다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;java&quot;&gt;&lt;pre class=&quot;language-java&quot;&gt;&lt;code class=&quot;language-java&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// T1이 write한 데이터를 T2가 read하고 commit했는데, T1이 rollback되는 경우&lt;/span&gt;
+&lt;span class=&quot;token constant&quot;&gt;T1&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;write&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;A&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;       &lt;span class=&quot;token comment&quot;&gt;// T1이 A를 수정&lt;/span&gt;
+&lt;span class=&quot;token constant&quot;&gt;T2&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;read&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;A&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;        &lt;span class=&quot;token comment&quot;&gt;// T2가 T1의 미완성 데이터를 읽음&lt;/span&gt;
+&lt;span class=&quot;token constant&quot;&gt;T2&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; commit         &lt;span class=&quot;token comment&quot;&gt;// T2 먼저 commit&lt;/span&gt;
+&lt;span class=&quot;token constant&quot;&gt;T1&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; rollback       &lt;span class=&quot;token comment&quot;&gt;// T1 rollback → T2가 읽은 데이터는 이미 사라진 값&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;T2는 이미 commit되었으므로 되돌릴 수 없다. 데이터베이스는 &lt;strong&gt;Unrecoverable Schedule이 발생하지 않도록 보장&lt;/strong&gt;해야 한다.&lt;/p&gt;
+&lt;h4 id=&quot;6-2-recoverable-schedule&quot;&gt;6-2 Recoverable Schedule&lt;/h4&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;Recoverable Schedule&lt;/code&gt;은 &lt;strong&gt;자신이 읽은 데이터를 write한 트랜잭션이 먼저 commit될 때까지 commit을 미루는&lt;/strong&gt; Schedule이다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;java&quot;&gt;&lt;pre class=&quot;language-java&quot;&gt;&lt;code class=&quot;language-java&quot;&gt;&lt;span class=&quot;token constant&quot;&gt;T1&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;write&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;A&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token constant&quot;&gt;T2&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;read&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;A&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;        &lt;span class=&quot;token comment&quot;&gt;// T2가 T1의 데이터를 읽음&lt;/span&gt;
+&lt;span class=&quot;token constant&quot;&gt;T1&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; commit         &lt;span class=&quot;token comment&quot;&gt;// T1이 먼저 commit&lt;/span&gt;
+&lt;span class=&quot;token constant&quot;&gt;T2&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; commit         &lt;span class=&quot;token comment&quot;&gt;// 그 후 T2 commit&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;T1이 rollback되더라도 T2가 아직 commit 전이므로 함께 rollback이 가능하다.&lt;/p&gt;
+&lt;h4 id=&quot;6-3-cascading-rollback&quot;&gt;6-3 Cascading Rollback&lt;/h4&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;Cascading Rollback&lt;/code&gt;은 하나의 트랜잭션이 rollback될 때, 그 트랜잭션이 write한 데이터를 읽은 다른 트랜잭션들도 &lt;strong&gt;연쇄적으로 rollback&lt;/strong&gt;되는 현상이다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;java&quot;&gt;&lt;pre class=&quot;language-java&quot;&gt;&lt;code class=&quot;language-java&quot;&gt;&lt;span class=&quot;token constant&quot;&gt;T1&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;write&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;A&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token constant&quot;&gt;T2&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;read&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;A&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;        &lt;span class=&quot;token comment&quot;&gt;// T2가 T1의 데이터에 의존&lt;/span&gt;
+&lt;span class=&quot;token constant&quot;&gt;T3&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;read&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;A&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;        &lt;span class=&quot;token comment&quot;&gt;// T3도 T1의 데이터에 의존&lt;/span&gt;
+&lt;span class=&quot;token constant&quot;&gt;T1&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; rollback       &lt;span class=&quot;token comment&quot;&gt;// T1 rollback → T2, T3도 모두 rollback 필요&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;Recoverable Schedule이라도 Cascading Rollback이 발생할 수 있다.&lt;/li&gt;
+&lt;li&gt;rollback 범위가 넓어지면 성능에 큰 영향을 미친다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&quot;6-4-cascadeless--strict-schedule&quot;&gt;6-4 Cascadeless / Strict Schedule&lt;/h4&gt;
+&lt;p&gt;Cascading Rollback을 방지하기 위한 더 엄격한 Schedule 조건이다.&lt;/p&gt;
+&lt;h5&gt;Cascadeless Schedule&lt;/h5&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;commit되지 않은 트랜잭션이 write한 데이터를 read하지 않는&lt;/code&gt; Schedule이다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;java&quot;&gt;&lt;pre class=&quot;language-java&quot;&gt;&lt;code class=&quot;language-java&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// Cascadeless: T1이 commit된 후에만 T2가 A를 읽을 수 있음&lt;/span&gt;
+&lt;span class=&quot;token constant&quot;&gt;T1&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;write&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;A&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token constant&quot;&gt;T1&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; commit
+&lt;span class=&quot;token constant&quot;&gt;T2&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;read&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;A&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;        &lt;span class=&quot;token comment&quot;&gt;// commit된 데이터만 읽음&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h5&gt;Strict Schedule&lt;/h5&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;commit되지 않은 트랜잭션이 write한 데이터를 read하거나 write하지 않는&lt;/code&gt; Schedule이다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Cascadeless Schedule보다 더 엄격한 조건이다.&lt;/li&gt;
+&lt;li&gt;rollback 시 이전 값으로 단순 복원이 가능하여 구현이 용이하다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Schedule 종류&lt;/th&gt;
+&lt;th&gt;특징&lt;/th&gt;
+&lt;th&gt;포함 관계&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code class=&quot;language-text&quot;&gt;Strict Schedule&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;uncommitted 데이터 read/write 모두 금지&lt;/td&gt;
+&lt;td&gt;가장 엄격&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code class=&quot;language-text&quot;&gt;Cascadeless Schedule&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;uncommitted 데이터 read 금지&lt;/td&gt;
+&lt;td&gt;Strict ⊂ Cascadeless&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code class=&quot;language-text&quot;&gt;Recoverable Schedule&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;의존한 트랜잭션이 commit 후 자신도 commit&lt;/td&gt;
+&lt;td&gt;Cascadeless ⊂ Recoverable&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code class=&quot;language-text&quot;&gt;Unrecoverable Schedule&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;rollback 불가&lt;/td&gt;
+&lt;td&gt;허용되어선 안 됨&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;figure class=&quot;gatsby-resp-image-figure&quot; style=&quot;background: transparent;&quot;&gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 848px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/fe9eb182b84c05768884b1f47f3c81c7/b14b3/recoverability.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 50.4%; position: relative; bottom: 0; left: 0; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/static/fe9eb182b84c05768884b1f47f3c81c7/bc904/recoverability.webp 250w,
+/static/fe9eb182b84c05768884b1f47f3c81c7/4be29/recoverability.webp 500w,
+/static/fe9eb182b84c05768884b1f47f3c81c7/04056/recoverability.webp 848w&quot;
+              sizes=&quot;(max-width: 848px) 100vw, 848px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/static/fe9eb182b84c05768884b1f47f3c81c7/43fa5/recoverability.png 250w,
+/static/fe9eb182b84c05768884b1f47f3c81c7/c6e3d/recoverability.png 500w,
+/static/fe9eb182b84c05768884b1f47f3c81c7/b14b3/recoverability.png 848w&quot;
+            sizes=&quot;(max-width: 848px) 100vw, 848px&quot;
+            type=&quot;image/png&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/static/fe9eb182b84c05768884b1f47f3c81c7/b14b3/recoverability.png&quot;
+            alt=&quot;벤다이어그램 (출처-GeeksforGeeks)&quot;
+            title=&quot;&quot;
+            loading=&quot;lazy&quot;
+            decoding=&quot;async&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+    &lt;figcaption class=&quot;gatsby-resp-image-figcaption&quot;&gt;벤다이어그램 (출처-GeeksforGeeks)&lt;/figcaption&gt;
+  &lt;/figure&gt;&lt;/p&gt;
+&lt;h2 id=&quot;7️-concurrency-control의-목표&quot;&gt;7️⃣ Concurrency Control의 목표&lt;/h2&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;Concurrency Control&lt;/code&gt;은 결국 두 가지 목표를 동시에 달성하는 것을 목표로 한다!&lt;/p&gt;
+&lt;h4 id=&quot;7-1-serializability&quot;&gt;7-1 Serializability&lt;/h4&gt;
+&lt;p&gt;실행되는 Schedule이 &lt;strong&gt;어떤 Serial Schedule과 동등한 결과&lt;/strong&gt;를 내도록 보장하는 것이다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;동시성을 허용하면서도 트랜잭션 간 간섭으로 인한 데이터 이상을 방지한다.&lt;/li&gt;
+&lt;li&gt;실질적으로는 Conflict Serializability를 기준으로 구현된다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&quot;7-2-recoverability&quot;&gt;7-2 Recoverability&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;rollback이 항상 정상적으로 가능&lt;/strong&gt;하도록 Schedule을 제어하는 것이다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Unrecoverable Schedule은 절대 허용하지 않는다.&lt;/li&gt;
+&lt;li&gt;가능하면 Cascadeless 또는 Strict Schedule을 지향하여 성능 저하도 최소화한다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;두 목표를 모두 만족하는 Schedule만이 안전한 동시 실행을 보장한다.&lt;/p&gt;
+&lt;p&gt;우리가 들어본 &lt;code class=&quot;language-text&quot;&gt;Lock&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;MVCC&lt;/code&gt; 같은 메커니즘은 이 두 가지 목표를 달성하기 위한 수단이다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[[소프트웨어공학] SOLID 원칙 이해하기]]></title><description><![CDATA[객체 지향 설계의 기본이 되는 은 응집성을 높이고 결합도를 낮춰 유지보수가 용이한 코드를 작성하기 위한 5가지 설계 원칙입니다. 각 원칙의 목적과 실제 적용 방법을 살펴봅니다.  SOLID 원칙이란 는 객체 지향 프로그래밍에서 지켜야 할…]]></description><link>https://inyoung.dev/software-engineering-solid-principles/</link><guid isPermaLink="false">https://inyoung.dev/software-engineering-solid-principles/</guid><pubDate>Wed, 25 Feb 2026 00:00:00 GMT</pubDate><content:encoded>&lt;blockquote&gt;
 &lt;p&gt;객체 지향 설계의 기본이 되는 &lt;code class=&quot;language-text&quot;&gt;SOLID 원칙&lt;/code&gt;은 응집성을 높이고 결합도를 낮춰 유지보수가 용이한 코드를 작성하기 위한 5가지 설계 원칙입니다. 각 원칙의 목적과 실제 적용 방법을 살펴봅니다.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;&lt;span
