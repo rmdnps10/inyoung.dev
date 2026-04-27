@@ -221,3 +221,12 @@ hr {
     @apply bg-background text-foreground;
   }
 }
+
+/* =============================================================================
+  Layout Components
+  ============================================================================= */
+
+article.blog-post a {
+  background: lightblue;
+  padding: 3px;
+}

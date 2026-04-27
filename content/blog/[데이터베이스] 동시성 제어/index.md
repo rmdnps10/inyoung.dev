@@ -28,7 +28,7 @@ keywords: "데이터베이스, 동시성 제어, 트랜잭션, 스케줄, Serial
 
 이러한 이상 현상들을 방지하기 위해 `Concurrency Control(동시성 제어)`이 필요하다.
 
-각 Isolation level 별 자세한 사항은 다음 글을 참고하자.
+각 Isolation level 별 자세한 사항은 다음 글을 참고하자. [➡️ 트랜잭션 격리 수준 4단계 쉽게 이해하기](http://inyoung.dev/database-isolation-level/)
 
 ## 2️⃣ 스케줄(Schedule)이란 무엇인가
 
