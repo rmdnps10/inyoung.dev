@@ -1,7 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[난너의오른팔 기술 블로그 RSS Feed]]></title><description><![CDATA[Web 기술과 AI 활용법을 공부하는 주니어 개발자, 커뮤니티 빌더의 기술 블로그]]></description><link>https://inyoung.dev</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 15 Aug 2026 07:31:38 GMT</lastBuildDate><item><title><![CDATA[[26년도 상반기 회고] 비전공자 개발자 취업 수기]]></title><description><![CDATA[를 목표로 준비하다가, 졸업학기인 26년 상반기에 4…]]></description><link>https://inyoung.dev/26-1h-40-companies-atech-developer/</link><guid isPermaLink="false">https://inyoung.dev/26-1h-40-companies-atech-developer/</guid><pubDate>Mon, 10 Aug 2026 00:00:00 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[난너의오른팔 기술 블로그 RSS Feed]]></title><description><![CDATA[Web 기술과 AI 활용법을 공부하는 주니어 개발자, 커뮤니티 빌더의 기술 블로그]]></description><link>https://inyoung.dev</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 15 Aug 2026 07:37:31 GMT</lastBuildDate><item><title><![CDATA[[26년도 상반기 회고] 비전공자 개발자 취업 수기]]></title><description><![CDATA[를 목표로 준비하다가, 졸업학기인 26년 상반기에 4…]]></description><link>https://inyoung.dev/26-1h-40-companies-atech-developer/</link><guid isPermaLink="false">https://inyoung.dev/26-1h-40-companies-atech-developer/</guid><pubDate>Mon, 10 Aug 2026 00:00:00 GMT</pubDate><content:encoded>&lt;blockquote&gt;
 &lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;프론트엔드 개발자&lt;/code&gt;를 목표로 준비하다가, 졸업학기인 26년 상반기에 &lt;strong&gt;40개&lt;/strong&gt; 기업에 지원하며 &lt;code class=&quot;language-text&quot;&gt;금융 IT&lt;/code&gt;로 방향을 급하게 (강제로) 전환했습니다.
 그 과정에서의 전략과 지원 결과, 그리고 돌아봤을 때 실제로 도움이 됐던 것과 아니었던 것을 정리해봤습니다.&lt;/p&gt;
 &lt;/blockquote&gt;
+&lt;blockquote&gt;
 &lt;p&gt;각 기업의 구체적인 면접 후기는 별도 글로 이어서 다루겠습니다!&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;&quot;&gt;LG CNS 금융 AX/DX 엔지니어 면접 후기 (최종 합격)&lt;/a&gt;&lt;/li&gt;
@@ -9,8 +10,8 @@
 &lt;li&gt;&lt;a href=&quot;&quot;&gt;현대자동차 모빌리티 서비스 개발 면접 후기 (최종 탈락)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;&quot;&gt;현대모비스 CI/CD/CT 면접 후기 (1차 탈락)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;&quot;&gt;새마을금고중앙회 IT 면접 후기 (1차 탈락)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;&quot;&gt;현대무벡스 웹개발 면접 후기 (1차 탈락)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+&lt;/blockquote&gt;
 &lt;h2 id=&quot;1️-기본-정보&quot;&gt;1️⃣ 기본 정보&lt;/h2&gt;
 &lt;h4 id=&quot;스펙&quot;&gt;스펙&lt;/h4&gt;
 &lt;ul&gt;
