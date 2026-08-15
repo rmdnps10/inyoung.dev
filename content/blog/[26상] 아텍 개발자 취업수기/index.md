@@ -6,18 +6,19 @@ description: 26년도 상반기 취업 수기 및 전략, 지원 결과, 취업�
 thumbnail: index.png
 pointColor: "#ffffff"
 tags: ["회고"]
-keywords: "취업 수기, 개발자, 신입 개발자 취업, 금융 IT, 프론트엔드, 아트앤테크놀로지, 개발자 취업 전략, LG CNS, 하나은행 인턴"
+keywords: "취업 수기, 개발자, 비전공자, 신입 개발자 취업, 금융 IT, 프론트엔드, 아트앤테크놀로지, 개발자 취업 전략, LG CNS, 하나은행 인턴"
 ---
 
 > `프론트엔드 개발자`를 목표로 준비하다가, 졸업학기인 26년 상반기에 **40개** 기업에 지원하며 `금융 IT`로 방향을 급하게 (강제로) 전환했습니다.
 > 그 과정에서의 전략과 지원 결과, 그리고 돌아봤을 때 실제로 도움이 됐던 것과 아니었던 것을 정리해봤습니다.
 
-> 각 기업의 구체적인 면접 후기는 별도 글로 이어서 다루겠습니다!
-> - [LG CNS 금융 AX/DX 엔지니어 면접 후기 (최종 합격)]()
-> - [하나은행 AI/ICT 인턴 면접 후기 (최종 합격)]()
-> - [현대자동차 모빌리티 서비스 개발 면접 후기 (최종 탈락)]()
-> - [현대모비스 CI/CD/CT 면접 후기 (1차 탈락)]()
-> - [새마을금고중앙회 IT 면접 후기 (1차 탈락)]()
+> 각 기업의 전형에 대한 후기는 별도 글로 이어서 다루겠습니다!
+>
+> - [LG CNS 금융 AX/DX 엔지니어 면접 후기 (최종 합격)](https://inyoung.dev/lg-cns-ax-dx-engineer-final-pass-review/)
+> - [하나은행 AI/ICT 인턴 면접 후기 (최종 합격)](https://inyoung.dev/hana-bank-ai-ict-intern-final-pass-review/)
+> - [현대자동차 모빌리티 서비스 개발 면접 후기 (최종 탈락)](https://inyoung.dev/hyundai-motor-mobility-service-development-interview-review/)
+> - [현대모비스 CI/CD/CT 면접 후기 (1차 탈락)](https://inyoung.dev/hyundai-mobis-cicdct-interview-review/)
+> - [새마을금고중앙회 IT 면접 후기 (1차 탈락)](https://inyoung.dev/saemaeulgeumgo-central-it-interview-review/)
 
 ## 1️⃣ 기본 정보
 
@@ -154,9 +155,9 @@ LG, CJ, 토스, 현대자동차, 컴투스그룹 등에서 포트폴리오 첨�
 
 ### 26-상반기 면접 상세 후기는 이곳에서!!
 
-> - [LG CNS 금융 AX/DX 엔지니어 면접 후기 (최종 합격)]()
-> - [하나은행 AI/ICT 인턴 면접 후기 (최종 합격)]()
-> - [현대자동차 모빌리티 서비스 개발 면접 후기 (최종 탈락)]()
-> - [현대모비스 CI/CD/CT 면접 후기 (1차 탈락)]()
-> - [새마을금고중앙회 IT 면접 후기 (1차 탈락)]()
-> - [현대무벡스 웹개발 면접 후기 (1차 탈락)]()
+> - [LG CNS 금융 AX/DX 엔지니어 면접 후기 (최종 합격)](https://inyoung.dev/lg-cns-ax-dx-engineer-final-pass-review/)
+> - [하나은행 AI/ICT 인턴 면접 후기 (최종 합격)](https://inyoung.dev/hana-bank-ai-ict-intern-final-pass-review/)
+> - [현대자동차 모빌리티 서비스 개발 면접 후기 (최종 탈락)](https://inyoung.dev/hyundai-motor-mobility-service-development-interview-review/)
+> - [현대모비스 CI/CD/CT 면접 후기 (1차 탈락)](https://inyoung.dev/hyundai-mobis-cicdct-interview-review/)
+> - [새마을금고중앙회 IT 면접 후기 (1차 탈락)](https://inyoung.dev/saemaeulgeumgo-central-it-interview-review/)
+> - [현대무벡스 웹개발 면접 후기 (1차 탈락)](https://inyoung.dev/hyundai-muvecs-web-development-interview-review/)
