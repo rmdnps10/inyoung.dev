@@ -227,6 +227,15 @@ hr {
   ============================================================================= */
 
 article.blog-post a {
-  background: lightblue;
-  padding: 3px;
+  color: #7dd3fc;
+  text-decoration: underline;
+  text-decoration-color: rgba(125, 211, 252, 0.35);
+  text-underline-offset: 4px;
+  text-decoration-thickness: 1px;
+  transition: 0.2s ease;
+}
+
+article.blog-post a:hover {
+  color: #bae6fd;
+  text-decoration-color: #bae6fd;
 }
