@@ -1,15 +1,246 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[난너의오른팔 기술 블로그 RSS Feed]]></title><description><![CDATA[Web 기술과 AI 활용법을 공부하는 주니어 개발자, 커뮤니티 빌더의 기술 블로그]]></description><link>https://inyoung.dev</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 15 Aug 2026 07:37:31 GMT</lastBuildDate><item><title><![CDATA[[26년도 상반기 회고] 비전공자 개발자 취업 수기]]></title><description><![CDATA[를 목표로 준비하다가, 졸업학기인 26년 상반기에 4…]]></description><link>https://inyoung.dev/26-1h-40-companies-atech-developer/</link><guid isPermaLink="false">https://inyoung.dev/26-1h-40-companies-atech-developer/</guid><pubDate>Mon, 10 Aug 2026 00:00:00 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[난너의오른팔 기술 블로그 RSS Feed]]></title><description><![CDATA[Web 기술과 AI 활용법을 공부하는 주니어 개발자, 커뮤니티 빌더의 기술 블로그]]></description><link>https://inyoung.dev</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 17 Aug 2026 03:03:45 GMT</lastBuildDate><item><title><![CDATA[[26상] LG CNS AX,DX 엔지니어 최종 합격 후기]]></title><description><![CDATA[준비중입니다!]]></description><link>https://inyoung.dev/lg-cns-ax-dx-engineer-final-pass-review/</link><guid isPermaLink="false">https://inyoung.dev/lg-cns-ax-dx-engineer-final-pass-review/</guid><pubDate>Sat, 15 Aug 2026 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;준비중입니다!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[[26상] 하나은행 AI ICT 인턴 최종 합격 후기]]></title><description><![CDATA[준비중입니다!]]></description><link>https://inyoung.dev/hana-bank-ai-ict-intern-final-pass-review/</link><guid isPermaLink="false">https://inyoung.dev/hana-bank-ai-ict-intern-final-pass-review/</guid><pubDate>Sat, 15 Aug 2026 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;준비중입니다!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[[26상] 현대자동차 모빌리티 서비스 개발 전형 후기]]></title><description><![CDATA[준비중입니다!]]></description><link>https://inyoung.dev/hyundai-motor-mobility-service-development-interview-review/</link><guid isPermaLink="false">https://inyoung.dev/hyundai-motor-mobility-service-development-interview-review/</guid><pubDate>Fri, 14 Aug 2026 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;준비중입니다!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[[26상] 현대모비스 CI/CD/CT 면접 후기]]></title><description><![CDATA[40개 기업에 지원한 개발자의 현대모비스 CI/CD/CT 면접 후기 26 상반기 면접 후기 LG CNS 금융 AX/DX 엔지니어 면접 후기 (최종 합격) 하나은행 AI/ICT…]]></description><link>https://inyoung.dev/hyundai-mobis-cicdct-interview-review/</link><guid isPermaLink="false">https://inyoung.dev/hyundai-mobis-cicdct-interview-review/</guid><pubDate>Wed, 12 Aug 2026 00:00:00 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+&lt;p&gt;40개 기업에 지원한 개발자의 현대모비스 CI/CD/CT 면접 후기&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;h5&gt;26 상반기 면접 후기&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://inyoung.dev/lg-cns-ax-dx-engineer-final-pass-review/&quot;&gt;LG CNS 금융 AX/DX 엔지니어 면접 후기 (최종 합격)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://inyoung.dev/hana-bank-ai-ict-intern-final-pass-review/&quot;&gt;하나은행 AI/ICT 인턴 면접 후기 (최종 합격)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://inyoung.dev/hyundai-motor-mobility-service-development-interview-review/&quot;&gt;현대자동차 모빌리티 서비스 개발 면접 후기 (최종 탈락)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://inyoung.dev/hyundai-mobis-cicdct-interview-review/&quot;&gt;현대모비스 CI/CD/CT 면접 후기&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://inyoung.dev/saemaeulgeumgo-central-it-interview-review/&quot;&gt;새마을금고중앙회 IT 면접 후기&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h4 id=&quot;스펙&quot;&gt;스펙&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;서성한 비전공자 &amp;#x26; 소프트웨어 전공&lt;/li&gt;
+&lt;li&gt;학점: 4.07 / 4.5 (전공 4.18 / 4.5)&lt;/li&gt;
+&lt;li&gt;인턴: 핀테크 기업 어시스턴트 6개월, 스타트업 프론트엔드 개발 인턴 6개월&lt;/li&gt;
+&lt;li&gt;자격증: AWS Solutions Architect Associate, 정보처리기사, SQLD, 네트워크관리사 2급&lt;/li&gt;
+&lt;li&gt;어학: 오픽 IH, 토익 900+&lt;/li&gt;
+&lt;li&gt;수상: 교내 해커톤 대상, 정부기관 주최 해커톤 우수상&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;1️-지원-과정&quot;&gt;1️⃣ 지원 과정&lt;/h2&gt;
+&lt;h4 id=&quot;자소서&quot;&gt;자소서&lt;/h4&gt;
+&lt;p&gt;경험기술서 항목이 따로 있었는데, 공고에 명시된 기술스택과 역량 요구사항에 맞춰 그동안의 경험을 최대한 녹여서 작성했다.&lt;/p&gt;
+&lt;h4 id=&quot;코딩테스트&quot;&gt;코딩테스트&lt;/h4&gt;
+&lt;p&gt;구현 성격의 문제 3개, &lt;code class=&quot;language-text&quot;&gt;BFS&lt;/code&gt; 1문제, &lt;code class=&quot;language-text&quot;&gt;Dijkstra&lt;/code&gt;를 활용한 지하철 환승 최단경로 문제 1문제로 총 5문제가 나왔다.&lt;/p&gt;
+&lt;p&gt;4솔한 거 같다.&lt;/p&gt;
+&lt;h2 id=&quot;2️-pt-면접-구성&quot;&gt;2️⃣ PT 면접 구성&lt;/h2&gt;
+&lt;p&gt;직무 역량 PT 면접이었고, 1:3(인사담당자 포함)으로 비대면으로 진행됐다. 30분 정도 걸렸다.&lt;/p&gt;
+&lt;p&gt;신입 DevOps 공고였어서 관련 경험을 어떻게 풀어낼지 고민을 많이 했다. 서비스 개발/운영하면서 &lt;code class=&quot;language-text&quot;&gt;GitHub Actions&lt;/code&gt;나 &lt;code class=&quot;language-text&quot;&gt;Jenkins&lt;/code&gt;를 가볍게 활용해본 경험과, 인턴하면서 DevOps 엔지니어와 함께 작업했던 경험을 엮어서 발표를 준비했다.&lt;/p&gt;
+&lt;h2 id=&quot;3️-받은-질문&quot;&gt;3️⃣ 받은 질문&lt;/h2&gt;
+&lt;p&gt;기억나는 것은 아래와 같다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;프로젝트에서 맡은 역할 상세하게 설명&lt;/li&gt;
+&lt;li&gt;프로젝트 관련 질문&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;Jenkins&lt;/code&gt; 설치 방법 설명&lt;/li&gt;
+&lt;li&gt;팀장으로서 팀을 이끌며 어려웠던 점&lt;/li&gt;
+&lt;li&gt;쿠버네티스 활용 경험이 있는지&lt;/li&gt;
+&lt;li&gt;쿠버네티스에 대해 아는 대로 다 말해보라&lt;/li&gt;
+&lt;li&gt;해외 경험으로 유럽 배낭여행을 쓴 이유&lt;/li&gt;
+&lt;li&gt;팀 협업을 선호하는지, 개인 프로젝트를 선호하는지&lt;/li&gt;
+&lt;li&gt;정말 솔직한 지원 동기&lt;/li&gt;
+&lt;li&gt;마지막 할 말&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;면접 분위기 자체는 나쁘지 않았지만, 질문 깊이는 전체적으로 얕아,, 보통 이러면 부정적인 결과로 나타낸다는 경우를 보아 기대를 하지 않았다.&lt;/p&gt;
+&lt;h2 id=&quot;4️-느낀-점&quot;&gt;4️⃣ 느낀 점&lt;/h2&gt;
+&lt;h4 id=&quot;우대사항에-나를-좀-더-끼워맞췄다면&quot;&gt;우대사항에 나를 좀 더 끼워맞췄다면..?&lt;/h4&gt;
+&lt;p&gt;공고 우대사항에 쿠버네티스 활용 경험이 명시되어 있었는데, 실제로 면접에서도 쿠버네티스 관련한 경험을 이끌어 내기 위한 질문들을 받았다. 우대사항이라고 적혀 있어도 가벼운 가산점 정도가 아니라, 실무 배치를 염두에 둔 핵심 검증 포인트일 수 있다는 걸 느꼈다.
+어차피 1-2명 채용 포지션일텐데니.. 우대사항도 Requirement 수준으로 생각하고, 면접 준비를 하는 게 좋을 거 같다.&lt;/p&gt;
+&lt;p&gt;만약 우대사항에 적힌 기술 스택을 프로젝트를 통해 경험하지 못하더라도, 최소한 개념 설명과 간단한 실습 경험 정도는 준비해가는 게 좋을 거 같다.&lt;/p&gt;
+&lt;h4 id=&quot;대기실에서도-체감되는-경쟁-강도&quot;&gt;대기실에서도 체감되는 경쟁 강도&lt;/h4&gt;
+&lt;p&gt;같은 대기실에 LG CNS DevOps 경력직으로 지원한 분이 계셨다. 신입 공고인데도 경력직 지원자와 함께 면접을 보게 되는 경우가 있다는 걸 그때 알았고, 이런 구도라면 실무 역량 검증에서 상대적으로 불리할 수 있겠다는 생각이 들었다.&lt;/p&gt;
+&lt;h2 id=&quot;결과&quot;&gt;결과&lt;/h2&gt;
+&lt;p&gt;&lt;figure class=&quot;gatsby-resp-image-figure&quot; style=&quot;background: transparent;&quot;&gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1000px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/719f3098e3b07697536ec8a9188dcfa5/437a1/index.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 55.60000000000001%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAB2HAAAdhwGP5fFlAAAAyElEQVR42q2SyQqEQAxE/QnPSvtr+sueRFxRQW3cUNulhgSEYQ4euicQAoE8qopYruviu4UQsG0bQRDgui6kaYokSXhGUQSqLMvgeR4cx8HvvfUGVEohDEMURcEdxzHvtIC+77OadV1xnieO4+BJRWq1gPd9I89z1HWNsizRNA3vjBRKKTEMA5ZlwTzP+hk+wHEcGbhtG/Z9N7NMVVUVuq5jddM0mQMpNwK2bcv2jYGk7FH3F8tPftSUpzGQXobs9n3PQHqbN+AHrH/x+P7MFD4AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/static/719f3098e3b07697536ec8a9188dcfa5/bc904/index.webp 250w,
+/static/719f3098e3b07697536ec8a9188dcfa5/4be29/index.webp 500w,
+/static/719f3098e3b07697536ec8a9188dcfa5/03f31/index.webp 1000w,
+/static/719f3098e3b07697536ec8a9188dcfa5/9579c/index.webp 1500w,
+/static/719f3098e3b07697536ec8a9188dcfa5/a8642/index.webp 1536w&quot;
+              sizes=&quot;(max-width: 1000px) 100vw, 1000px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/static/719f3098e3b07697536ec8a9188dcfa5/43fa5/index.png 250w,
+/static/719f3098e3b07697536ec8a9188dcfa5/c6e3d/index.png 500w,
+/static/719f3098e3b07697536ec8a9188dcfa5/da8b6/index.png 1000w,
+/static/719f3098e3b07697536ec8a9188dcfa5/2e9ed/index.png 1500w,
+/static/719f3098e3b07697536ec8a9188dcfa5/437a1/index.png 1536w&quot;
+            sizes=&quot;(max-width: 1000px) 100vw, 1000px&quot;
+            type=&quot;image/png&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/static/719f3098e3b07697536ec8a9188dcfa5/da8b6/index.png&quot;
+            alt=&quot;탈락~!&quot;
+            title=&quot;&quot;
+            loading=&quot;lazy&quot;
+            decoding=&quot;async&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+    &lt;figcaption class=&quot;gatsby-resp-image-figcaption&quot;&gt;탈락~!&lt;/figcaption&gt;
+  &lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;1차 탈락했다 ㅎㅎ&lt;/p&gt;</content:encoded></item><item><title><![CDATA[[26상] 새마을금고중앙회 IT 면접 후기]]></title><description><![CDATA[40개 기업에 지원한 개발자의 새마을금고중앙회 IT 면접 후기 26 상반기 면접 후기 LG CNS 금융 AX/DX 엔지니어 면접 후기 (최종 합격) 하나은행 AI/ICT…]]></description><link>https://inyoung.dev/saemaeulgeumgo-central-it-interview-review/</link><guid isPermaLink="false">https://inyoung.dev/saemaeulgeumgo-central-it-interview-review/</guid><pubDate>Tue, 11 Aug 2026 00:00:00 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+&lt;p&gt;40개 기업에 지원한 개발자의 새마을금고중앙회 IT 면접 후기&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;h5&gt;26 상반기 면접 후기&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://inyoung.dev/lg-cns-ax-dx-engineer-final-pass-review/&quot;&gt;LG CNS 금융 AX/DX 엔지니어 면접 후기 (최종 합격)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://inyoung.dev/hana-bank-ai-ict-intern-final-pass-review/&quot;&gt;하나은행 AI/ICT 인턴 면접 후기 (최종 합격)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://inyoung.dev/hyundai-motor-mobility-service-development-interview-review/&quot;&gt;현대자동차 모빌리티 서비스 개발 면접 후기 (최종 탈락)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://inyoung.dev/hyundai-mobis-cicdct-interview-review/&quot;&gt;현대모비스 CI/CD/CT 면접 후기&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://inyoung.dev/saemaeulgeumgo-central-it-interview-review/&quot;&gt;새마을금고중앙회 IT 면접 후기 &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h4 id=&quot;스펙&quot;&gt;스펙&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;서성한 비전공자 &amp;#x26; 소프트웨어 전공&lt;/li&gt;
+&lt;li&gt;학점: 4.07 / 4.5 (전공 4.18 / 4.5)&lt;/li&gt;
+&lt;li&gt;인턴: 핀테크 기업 어시스턴트 6개월, 스타트업 프론트엔드 개발 인턴 6개월&lt;/li&gt;
+&lt;li&gt;자격증: AWS Solutions Architect Associate, 정보처리기사, SQLD, 네트워크관리사 2급&lt;/li&gt;
+&lt;li&gt;어학: 오픽 IH, 토익 900+&lt;/li&gt;
+&lt;li&gt;수상: 교내 해커톤 대상, 정부기관 주최 해커톤 우수상&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;1️-지원-과정&quot;&gt;1️⃣ 지원 과정&lt;/h2&gt;
+&lt;h4 id=&quot;코딩테스트-및-ncs&quot;&gt;코딩테스트 및 NCS&lt;/h4&gt;
+&lt;p&gt;코딩테스트는 5문제로, 구현 성격의 문제 4개와 &lt;code class=&quot;language-text&quot;&gt;Union-Find&lt;/code&gt;(&lt;code class=&quot;language-text&quot;&gt;DFS&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;BFS&lt;/code&gt; 활용) 문제 1개가 출제됐다. 5문제 중 4문제를 풀었다.&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;NCS&lt;/code&gt;는 전날 급하게 세트 1개 정도만 풀고 응시했다. IT 직군은 &lt;code class=&quot;language-text&quot;&gt;NCS&lt;/code&gt;보다 코딩테스트 점수의 비중이 더 큰 거 같다.&lt;/p&gt;
+&lt;h2 id=&quot;2️-1차-면접-구성&quot;&gt;2️⃣ 1차 면접 구성&lt;/h2&gt;
+&lt;p&gt;&lt;figure class=&quot;gatsby-resp-image-figure&quot; style=&quot;background: transparent;&quot;&gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1000px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/7aca459accb35b59c954dc09bb423319/491c0/index.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 44.800000000000004%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAJABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAwAE/8QAFQEBAQAAAAAAAAAAAAAAAAAAAQD/2gAMAwEAAhADEAAAARUnTBbqP//EABoQAAICAwAAAAAAAAAAAAAAAAMyAAECEiH/2gAIAQEAAQUCw6Q6a3BMZJ//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAVEQEBAAAAAAAAAAAAAAAAAAAQQf/aAAgBAgEBPwGH/8QAGhAAAgIDAAAAAAAAAAAAAAAAAAIBEEFxgf/aAAgBAQAGPwJMnaQjdf/EAB0QAAMAAAcAAAAAAAAAAAAAAAABIRARMUFhocH/2gAIAQEAAT8hbIN1buUsPGdPzBnqf//aAAwDAQACAAMAAAAQmw//xAAVEQEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAwEBPxBn/8QAFREBAQAAAAAAAAAAAAAAAAAAARD/2gAIAQIBAT8QI//EABwQAQACAQUAAAAAAAAAAAAAAAEAETEQQXGhsf/aAAgBAQABPxBKDITkggXlLBitmJqIeTSHU+TJP//Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/static/7aca459accb35b59c954dc09bb423319/bc904/index.webp 250w,
+/static/7aca459accb35b59c954dc09bb423319/4be29/index.webp 500w,
+/static/7aca459accb35b59c954dc09bb423319/03f31/index.webp 1000w,
+/static/7aca459accb35b59c954dc09bb423319/9579c/index.webp 1500w,
+/static/7aca459accb35b59c954dc09bb423319/b1218/index.webp 2000w,
+/static/7aca459accb35b59c954dc09bb423319/73e76/index.webp 2621w&quot;
+              sizes=&quot;(max-width: 1000px) 100vw, 1000px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/static/7aca459accb35b59c954dc09bb423319/0988f/index.jpg 250w,
+/static/7aca459accb35b59c954dc09bb423319/d1f95/index.jpg 500w,
+/static/7aca459accb35b59c954dc09bb423319/dbdff/index.jpg 1000w,
+/static/7aca459accb35b59c954dc09bb423319/9d81f/index.jpg 1500w,
+/static/7aca459accb35b59c954dc09bb423319/109c0/index.jpg 2000w,
+/static/7aca459accb35b59c954dc09bb423319/491c0/index.jpg 2621w&quot;
+            sizes=&quot;(max-width: 1000px) 100vw, 1000px&quot;
+            type=&quot;image/jpeg&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/static/7aca459accb35b59c954dc09bb423319/dbdff/index.jpg&quot;
+            alt=&quot;새마을금고중앙회 1차 면접&quot;
+            title=&quot;&quot;
+            loading=&quot;lazy&quot;
+            decoding=&quot;async&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+    &lt;figcaption class=&quot;gatsby-resp-image-figcaption&quot;&gt;새마을금고중앙회 1차 면접&lt;/figcaption&gt;
+  &lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;삼성역 인근 대관 공간에서 반나절 동안 대면으로 진행됐다. 복장은 풀정장으로 통일됐다.&lt;/p&gt;
+&lt;p&gt;진행 순서는 다음과 같이 진행됐다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;인성검사&lt;/li&gt;
+&lt;li&gt;토론 면접&lt;/li&gt;
+&lt;li&gt;실무진 면접&lt;/li&gt;
+&lt;li&gt;코딩테스트 기반 PT 면접&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;실무진 면접과 PT 면접은 두 그룹으로 나뉘어, 오전 실무진/오후 PT, 오전 PT/오후 실무진 순서로 큰 컨베이어 벨트처럼 진행됐다.&lt;/p&gt;
+&lt;h4 id=&quot;인성검사&quot;&gt;인성검사&lt;/h4&gt;
+&lt;p&gt;컴퓨터용 사인펜으로 직접 마킹하는 방식이었다. 수정테이프 사용이 불가능해 신중하게 마킹해야 했고, 문제지를 중간에 교체할 경우 시간 제한에 걸릴 위험이 있었다.
+나는 다행히 초반에 문제지를 교체하여, 아슬아슬하게 검사를 마칠 수 있었다.&lt;/p&gt;
+&lt;h4 id=&quot;토론-면접&quot;&gt;토론 면접&lt;/h4&gt;
+&lt;p&gt;IT 직군과 금융 일반 직군이 섞인 팀으로 진행됐다. 주제는 고령 운전자 면허 반납에 관한 것이었는데, 조별로 자유롭게 진행자를 선정해 찬반으로 나누어 토론했고, 평가자들도 자리에 함께 앉아 관찰했다.&lt;/p&gt;
+&lt;p&gt;진행자를 자원받고 진행 형식 역시 자유롭기 때문에, 미리 진행을 어떻게 할 지 고민을 하고 진행자 역할을 자원하는 것도 방법일 거 같다.&lt;/p&gt;
+&lt;h4 id=&quot;실무진-면접&quot;&gt;실무진 면접&lt;/h4&gt;
+&lt;p&gt;찾아본 후기와 달리, 새마을금고중앙회에 대한 지원 동기나 로열티 관련 질문보다는, &lt;code class=&quot;language-text&quot;&gt;CS&lt;/code&gt; 지식, 특히 &lt;strong&gt;데이터베이스&lt;/strong&gt; 관련 질문이 위주였다.&lt;/p&gt;
+&lt;h2 id=&quot;3️-실무진-면접-질문&quot;&gt;3️⃣ 실무진 면접 질문&lt;/h2&gt;
+&lt;p&gt;기억나는 것은 아래와 같다.&lt;/p&gt;
+&lt;p&gt;자소서에 기술 블로그에 공부한 내용을 정리한다고 작성했는데,실무진 면접에서 &quot;그러면 당연히 전공 지식을 남들보다 더 잘 알고 있겠네요?&quot; 라는 질문으로 빌드업을 하셨다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;TCP&lt;/code&gt;와 &lt;code class=&quot;language-text&quot;&gt;UDP&lt;/code&gt;의 차이, 각각의 활용 예시&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;HTTP&lt;/code&gt;와 &lt;code class=&quot;language-text&quot;&gt;HTTPS&lt;/code&gt;의 차이&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;TLS&lt;/code&gt;에 대한 설명 요구&lt;/li&gt;
+&lt;li&gt;DFS BFS 설명해봐라&lt;/li&gt;
+&lt;li&gt;라이브러리와 프레임워크의 차이 (제어의 주도권 여부로 답하자, &quot;그런 것 말고 핵심적인 차이가 뭐냐&quot;는 재질문)&lt;/li&gt;
+&lt;li&gt;라이브러리와 프레임워크의 예시를 들어라&lt;/li&gt;
+&lt;li&gt;데이터베이스 인덱스가 어떤 자료구조로 구현되어 있는지&lt;/li&gt;
+&lt;li&gt;해당 자료구조의 시간복잡도&lt;/li&gt;
+&lt;li&gt;해시맵은 시간복잡도가 O(1)인데 인덱스에 왜 쓰이지 않는지&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;B-Tree&lt;/code&gt;와 &lt;code class=&quot;language-text&quot;&gt;B+Tree&lt;/code&gt;의 차이&lt;/li&gt;
+&lt;li&gt;데이터베이스에 10억 건의 데이터가 적재되어 있다고 가정할 때, 효율적으로 정보를 탐색하는 방법 (이 주제로 가장 오래 대화를 주고받았다..)&lt;/li&gt;
+&lt;li&gt;학부연구생을 왜 했는지&lt;/li&gt;
+&lt;li&gt;인턴 경험 관련 질문 (채용연계형이 아니었는지)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;다른 인성적인 질문도 몇 개 받았던 거 같다.
+전체적으로 엄중하고 삭막한 분위기 속에서 진행이 되었다.&lt;/p&gt;
+&lt;h2 id=&quot;4️-면접에서-유의할-점&quot;&gt;4️⃣ 면접에서 유의할 점&lt;/h2&gt;
+&lt;h4 id=&quot;은행-it-라는-점을-기억하자&quot;&gt;은행 IT 라는 점을 기억하자&lt;/h4&gt;
+&lt;p&gt;라이브러리와 프레임워크의 예시를 묻는 질문이 있었는데,&lt;/p&gt;
+&lt;p&gt;프론트엔드에 익숙한 나는 리액트를 라이브러리, Next.js를 프레임워크라고 답했다.
+그러자 &quot;진짜 리액트가 라이브러리라고 생각하세요?&quot;라는 재질문이 들어왔고 그렇다고 답하자 질문을 한 면접관분께서 고개를 절레절레 흔드셨다.&lt;/p&gt;
+&lt;p&gt;아마 면접관 분은 리액트를 대표적인 프레임워크로 생각하신 거 같았다. (...) 면접관의 맥락을 파악하고, 금융권에서 주로 쓰는 스택을 기준으로 답변하는 게 좋을 거 같다.&lt;/p&gt;
+&lt;p&gt;금융 IT 면접에서 &lt;code class=&quot;language-text&quot;&gt;Kafka&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;MSA&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;Kubernetes&lt;/code&gt; 같은 최신 기술 스택 이야기를 꺼내는 거에 대한 의문이 들었다. 오히려 개발자의 기본 이해도, 특히 데이터베이스 쪽의 단단함을 보여주는 게 좋을 거 같다는 생각이 드는 면접이었다.&lt;/p&gt;
+&lt;h4 id=&quot;코테-pt-면접-범위&quot;&gt;코테 PT 면접 범위&lt;/h4&gt;
+&lt;p&gt;사전 공지로는 준비한 5문제 전부를 발표하는 것으로 안내됐지만, 실제 현장에서는 시간상 1문제만 발표하는 것으로 변경됐다. 이전 실무진 면접관들이 그대로 참석한 상태로 진행됐고, 코딩테스트 난이도 자체가 어렵지 않았던 만큼 발표 내용보다는 왜 5문제를 모두 풀지 못했는지에 대한 질문이 이어졌다.&lt;/p&gt;
+&lt;h4 id=&quot;컨베이어-벨트식-면접-진행&quot;&gt;컨베이어 벨트식 면접 진행&lt;/h4&gt;
+&lt;p&gt;면접관 3명이 배석했는데, 다수 지원자를 연속으로 상대하는 구조여서인지 답변 중 시선을 거의 마주치지 않았다. 이런 진행 분위기를 미리 감안하고 들어가길...&lt;/p&gt;
+&lt;h2 id=&quot;결과&quot;&gt;결과&lt;/h2&gt;
+&lt;p&gt;불합격했다 ㅎㅎ
+데이터베이스 전공 지식을 정말 많이 물어보니 참고하시길~!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[[26년도 상반기 회고] 비전공자 개발자 취업 수기]]></title><description><![CDATA[를 목표로 준비하다가, 졸업학기인 26년 상반기에 4…]]></description><link>https://inyoung.dev/26-1h-40-companies-atech-developer/</link><guid isPermaLink="false">https://inyoung.dev/26-1h-40-companies-atech-developer/</guid><pubDate>Mon, 10 Aug 2026 00:00:00 GMT</pubDate><content:encoded>&lt;blockquote&gt;
 &lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;프론트엔드 개발자&lt;/code&gt;를 목표로 준비하다가, 졸업학기인 26년 상반기에 &lt;strong&gt;40개&lt;/strong&gt; 기업에 지원하며 &lt;code class=&quot;language-text&quot;&gt;금융 IT&lt;/code&gt;로 방향을 급하게 (강제로) 전환했습니다.
 그 과정에서의 전략과 지원 결과, 그리고 돌아봤을 때 실제로 도움이 됐던 것과 아니었던 것을 정리해봤습니다.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;blockquote&gt;
-&lt;p&gt;각 기업의 구체적인 면접 후기는 별도 글로 이어서 다루겠습니다!&lt;/p&gt;
+&lt;p&gt;각 기업의 전형에 대한 후기는 별도 글로 이어서 다루겠습니다!&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;&quot;&gt;LG CNS 금융 AX/DX 엔지니어 면접 후기 (최종 합격)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;&quot;&gt;하나은행 AI/ICT 인턴 면접 후기 (최종 합격)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;&quot;&gt;현대자동차 모빌리티 서비스 개발 면접 후기 (최종 탈락)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;&quot;&gt;현대모비스 CI/CD/CT 면접 후기 (1차 탈락)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;&quot;&gt;새마을금고중앙회 IT 면접 후기 (1차 탈락)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://inyoung.dev/lg-cns-ax-dx-engineer-final-pass-review/&quot;&gt;LG CNS 금융 AX/DX 엔지니어 면접 후기 (최종 합격)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://inyoung.dev/hana-bank-ai-ict-intern-final-pass-review/&quot;&gt;하나은행 AI/ICT 인턴 면접 후기 (최종 합격)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://inyoung.dev/hyundai-motor-mobility-service-development-interview-review/&quot;&gt;현대자동차 모빌리티 서비스 개발 면접 후기 (최종 탈락)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://inyoung.dev/hyundai-mobis-cicdct-interview-review/&quot;&gt;현대모비스 CI/CD/CT 면접 후기 (1차 탈락)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://inyoung.dev/saemaeulgeumgo-central-it-interview-review/&quot;&gt;새마을금고중앙회 IT 면접 후기 (1차 탈락)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/blockquote&gt;
 &lt;h2 id=&quot;1️-기본-정보&quot;&gt;1️⃣ 기본 정보&lt;/h2&gt;
@@ -214,12 +445,12 @@
 &lt;h3 id=&quot;26-상반기-면접-상세-후기는-이곳에서&quot;&gt;26-상반기 면접 상세 후기는 이곳에서!!&lt;/h3&gt;
 &lt;blockquote&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;&quot;&gt;LG CNS 금융 AX/DX 엔지니어 면접 후기 (최종 합격)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;&quot;&gt;하나은행 AI/ICT 인턴 면접 후기 (최종 합격)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;&quot;&gt;현대자동차 모빌리티 서비스 개발 면접 후기 (최종 탈락)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;&quot;&gt;현대모비스 CI/CD/CT 면접 후기 (1차 탈락)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;&quot;&gt;새마을금고중앙회 IT 면접 후기 (1차 탈락)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;&quot;&gt;현대무벡스 웹개발 면접 후기 (1차 탈락)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://inyoung.dev/lg-cns-ax-dx-engineer-final-pass-review/&quot;&gt;LG CNS 금융 AX/DX 엔지니어 면접 후기 (최종 합격)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://inyoung.dev/hana-bank-ai-ict-intern-final-pass-review/&quot;&gt;하나은행 AI/ICT 인턴 면접 후기 (최종 합격)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://inyoung.dev/hyundai-motor-mobility-service-development-interview-review/&quot;&gt;현대자동차 모빌리티 서비스 개발 면접 후기 (최종 탈락)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://inyoung.dev/hyundai-mobis-cicdct-interview-review/&quot;&gt;현대모비스 CI/CD/CT 면접 후기 (1차 탈락)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://inyoung.dev/saemaeulgeumgo-central-it-interview-review/&quot;&gt;새마을금고중앙회 IT 면접 후기 (1차 탈락)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://inyoung.dev/hyundai-muvecs-web-development-interview-review/&quot;&gt;현대무벡스 웹개발 면접 후기 (1차 탈락)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/blockquote&gt;</content:encoded></item><item><title><![CDATA[[데이터베이스] 트랜잭션 격리 수준 4단계 쉽게 이해하기]]></title><description><![CDATA[트랜잭션의 ACID 중 은 동시에 실행되는 트랜잭션들이 서로 영향을 미치지 않아야 한다는 성질이다. 격리 수준이 왜 필요한지, 이상 현상의 종류는 무엇인지, SQL 표준이 정의한  을 이해해보자.…]]></description><link>https://inyoung.dev/database-isolation-level/</link><guid isPermaLink="false">https://inyoung.dev/database-isolation-level/</guid><pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate><content:encoded>&lt;blockquote&gt;
 &lt;p&gt;트랜잭션의 ACID 중 &lt;code class=&quot;language-text&quot;&gt;격리성(Isolation)&lt;/code&gt;은 동시에 실행되는 트랜잭션들이 서로 영향을 미치지 않아야 한다는 성질이다.&lt;/p&gt;
